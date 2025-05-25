@@ -29,7 +29,7 @@
 ```python
 acerca_de_mi = {
   "from": "Perú",
-  "ciudad": "Lima",
+  "ciudad": "Trujilo",
   "edad": 21,
   "main_focus": "Pentesting y seguridad ofensiva",
   "main_tools": [
