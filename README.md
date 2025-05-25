@@ -57,12 +57,16 @@ acerca_de_mi = {
 - 📘 [cheat-sheets](https://github.com/nayiro/cheat-sheets): Mis acordeones para pentesting y Linux-->
 
 ---
-
 ### 🛠️ Lenguajes y herramientas
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,bash,linux,git,nmap,wireshark,vscode,docker,azure,html,css,php" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,bash,linux,git,nmap,wireshark,vscode,docker,azure,html,css,php,kali,postman,graphql" />
 </p>
+
+
+
+🔐 También utilizo herramientas como: Metasploit, Burp Suite, John the Ripper, Hydra, Aircrack-ng, SQLmap, Netcat, Impacket, BloodHound y más.
+
 
 ---
 
