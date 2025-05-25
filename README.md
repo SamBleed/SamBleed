@@ -17,7 +17,7 @@
 
 - 💬 Pregúntame sobre **Linux, Bash, redes, Wireshark, nmap, Python para hacking**
 
-- 📫 Contáctame en **nayiro.security@gmail.com**
+- 📫 Contáctame en **samuell.secure@gmail.com**
 
 - ⚡ Fun fact: **Me rompí el sistema más de 5 veces instalando Arch y aún así lo amo 🐍**
 
