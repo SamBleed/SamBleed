@@ -13,7 +13,7 @@
 
 - 🤝 Busco ayuda con **prácticas avanzadas de buffer overflow y explotación**
 
-- 📝 Escribo notas técnicas en [Hack The Box, TryHackMe y mi blog (próximamente)]()
+- ✍️ Actualmente escribo notas técnicas de mis prácticas en Hack The Box y TryHackMe, y pronto las publicaré en GitHub o Notion.
 
 - 💬 Pregúntame sobre **Linux, Bash, redes, Wireshark, nmap, Python para hacking**
 
