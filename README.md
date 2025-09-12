@@ -12,7 +12,7 @@
 - 👯 Buscando colaborar en **proyectos open source de ciberseguridad**
 
 - 🤝 Busco ayuda con **prácticas avanzadas de buffer overflow y explotación**
-- 
+  
 - 📫 Contáctame en **samuell.secure@gmail.com**
 ---
 
