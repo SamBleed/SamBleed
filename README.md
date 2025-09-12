@@ -18,9 +18,6 @@
 - 💬 Pregúntame sobre **Linux, Bash, redes, Wireshark, nmap, Python para hacking**
 
 - 📫 Contáctame en **samuell.secure@gmail.com**
-
-- ⚡ Fun fact: **Me rompí el sistema más de 5 veces instalando Arch y aún así lo amo 🐍**
-
 ---
 
 
@@ -28,8 +25,6 @@
 
 ```python
 acerca_de_mi = {
-  "from": "Perú",
-  "ciudad": "Trujilo",
   "edad": 21,
   "main_focus": "Pentesting y seguridad ofensiva",
   "main_tools": [
@@ -62,11 +57,6 @@ acerca_de_mi = {
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,bash,linux,git,nmap,wireshark,vscode,docker,azure,html,css,php,kali,postman,graphql" />
 </p>
-
-
-
-🔐 También utilizo herramientas como: Metasploit, Burp Suite, John the Ripper, Hydra, Aircrack-ng, SQLmap, Netcat, Impacket, BloodHound y más.
-
 
 ---
 
