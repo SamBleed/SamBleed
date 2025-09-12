@@ -1,5 +1,5 @@
-<h1 align="center">Hola 👋, soy Samuel </h1>
-<h3 align="center">Apasionado por la ciberseguridad, el pentesting y el mundo Linux 🐧</h3>
+<h1 align="center">Hola 👋, soy SamBleed </h1>
+<h3 align="center">Apasionado por la ciberseguridad, el pentesting </h3>
 
 <!--p align="center">
   <img src="https://komarev.com/ghpvc/?username=nayiro&label=Visitas%20al%20perfil&color=blueviolet&style=flat-square" alt="profile views" />
@@ -12,14 +12,9 @@
 - 👯 Buscando colaborar en **proyectos open source de ciberseguridad**
 
 - 🤝 Busco ayuda con **prácticas avanzadas de buffer overflow y explotación**
-
-- ✍️ Actualmente escribo notas técnicas de mis prácticas en Hack The Box y TryHackMe, y pronto las publicaré en GitHub o Notion.
-
-- 💬 Pregúntame sobre **Linux, Bash, redes, Wireshark, nmap, Python para hacking**
-
+- 
 - 📫 Contáctame en **samuell.secure@gmail.com**
 ---
-
 
 ### 🧠 Un poco sobre mí (en Python)
 
