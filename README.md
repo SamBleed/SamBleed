@@ -42,9 +42,9 @@ acerca_de_mi = {
 
 <!--### 🚀 Repositorios Destacados
 
-- 🔗 [pentesting-101](https://github.com/nayiro/pentesting-101): Guía básica para empezar en el hacking ético
-- 📄 [arch-hyprland-setup](https://github.com/nayiro/arch-hyprland-setup): Mi configuración personal de Arch Linux con Hyprland
-- 📘 [cheat-sheets](https://github.com/nayiro/cheat-sheets): Mis acordeones para pentesting y Linux-->
+- 🔗 [pentesting-101](https://github.com/SamBleed/pentesting-101): Guía básica para empezar en el hacking ético
+- 📄 [arch-hyprland-setup](https://github.com/SamBleed/arch-hyprland-setup): Mi configuración personal de Arch Linux con Hyprland
+- 📘 [cheat-sheets](https://github.com/SamBleed/cheat-sheets): Mis acordeones para pentesting y Linux-->
 
 ---
 ### 🛠️ Lenguajes y herramientas
@@ -55,7 +55,7 @@ acerca_de_mi = {
 
 ---
 
-### 📲 Conecta conmigo
+### 📲 Conecta Conmigo
 
 <!--p align="left">
   <a href="https://tiktok.com/@nayirotech" target="blank"><img align="center" src="https://img.shields.io/badge/TikTok-black?style=for-the-badge&logo=tiktok&logoColor=white" alt="tiktok" /></a-->
