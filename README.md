@@ -20,9 +20,9 @@
   </a>
 </p>
 
-<p align="center">
+<!--p align="center">
   <img src="https://komarev.com/ghpvc/?username=SamBleed&color=red&style=flat-square&label=Visitas+al+perfil" />
-</p>
+</p-->
 
 ---
 
