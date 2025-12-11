@@ -1,78 +1,78 @@
-<img src="https://raw.githubusercontent.com/SamBleed/CyberBrain/main/assets/banner.png" alt="CyberBrain Banner" width="100%"/>
+
+<!--div align="center">
+  <img src="https://i.imgur.com/qAacJJs.jpeg" alt="SamBleed" style="width:100%; border-radius:15px; box-shadow:0 10px 40px rgba(220,20,60,0.5); border-bottom:5px solid #ff0033;">
+</div-->
 
 <h1 align="center">CyberBrain 🛡️ de SamBleed</h1>
-
 <p align="center">
-  <strong>Offensive Security | Red Team | Adversary Simulation</strong>
+  <strong>Offensive Security • Red Team • Adversary Simulation</strong>
 </p>
-
 <p align="center">
-  <i>«Si puedes pensar como atacante, puedes defender como dios»</i>
+  <i>Piensa como atacante. Defiende como dios.</i>
 </p>
 
 <p align="center">
   <a href="mailto:samuell.secure@gmail.com">
     <img src="https://img.shields.io/badge/Email-samuell.secure@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://www.linkedin.com/in/tu-linkedin-aqui" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-SamBleed-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <a href="https://www.linkedin.com/in/tu-linkedin" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-SamBleed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=SamBleed&color=red&style=flat-square&label=Visitas+al+perfil" />
 </p>
 
 ---
 
-### 🔥 Foco Actual (2025–2026)
-Actualmente estoy 100% enfocado en **Red Team avanzado** y desarrollo de TTPs indetectables:
-
-| Área | Tácticas & Investigación Actual | Objetivo 2026 |
-|------|-----------------------------------|---------------|
-| 🔴 **EDR/XDR Evasion** | Syscalls directas, User-Mode Hooking bypass, Reflective DLL injection sin tocar disco, AMSI/ETW patching | Crear framework propio de bypass open-source |
-| 🛡️ **OPSEC & Low-and-Slow C2** | Domain Fronting, Egrees con tráfico legítimo (DNS, CDN), C2 sobre GrapheneOS + Covenant modificado | Operaciones Red Team sin generar una sola alerta alta |
-| 🐍 **Automatización Ofensiva** | Python + Scapy + Impacket personalizados, Bash toolkits, Docker para entornos efímeros | Contribuir a Sliver / Covenant / Mythic |
-| ☁️ **Cloud Adversary** | Azure AD & AWS post-explotación, Living-off-the-Cloud, Terraform drift de permisos | Roadmap certificación CCSP + publicación de nuevas técnicas |
+### Foco Actual (2025–2026)
+| Área                    | Investigación actual                                      | Meta 2026                              |
+|-------------------------|-----------------------------------------------------------|----------------------------------------|
+| EDR/XDR Evasion         | Syscalls directas • Hooking bypass • Reflective injection • AMSI/ETW patch | Framework propio open-source           |
+| OPSEC & Stealth C2      | Domain Fronting • DNS/CDN egress • Covenant + GrapheneOS  | Operaciones sin alertas críticas       |
+| Automatización Ofensiva | Python/Scapy/Impacket • Bash • Docker efímero           | Contribuir a Sliver, Covenant o Mythic |
+| Cloud Native Attacks    | Azure AD • AWS post-explotación • Living off the Cloud    | CCSP + publicar nuevas técnicas        |
 
 ---
 
-### 🛠️ Arsenal Técnico Actual
+### Stack Técnico
+<img src="https://skillicons.dev/icons?i=python,go,rust,nim,bash,powershell,linux,kali,docker,azure,aws,git,nmap,wireshark,burpsuite,metasploit,vscode" />
 
-<img src="https://skillicons.dev/icons?i=python,bash,powershell,linux,kali,docker,azure,aws,git,nmap,wireshark,burpsuite,metasploit,graphql,postman,vscode" />
-<br><br>
-
-**Lenguajes & Frameworks favoritos**: Python ≥3.11, Go (aprendiendo para C2s), Nim, Rust (para payloads)
+**Lenguajes principales**: Python 3.11+ • Go • Rust • Nim
 
 ---
 
-### 📜 Sobre mí (como objeto Python)
-
+### Sobre mí
 ```python
 class SamBleed(RedTeamer):
     def __init__(self):
-        self.role              = "Red Team Operator & Tooling Developer"
-        self.experience        = "5+ meses IT Support → 100% transición a Ciberseguridad Ofensiva"
-        self.real_world_skills = [
-            "Active Directory (GPO, Kerberoasting, DCSync)",
-            "Resolución de incidentes Windows (reinstalación, dominio, VPN)",
-            "Pentesting interno & externo",
-            "Automatización con Python/Bash"
-        ]
-        self.current_focus     = "EDR Evasion + Custom C2 Development"
+        self.role           = "Red Team Operator & Tooling Developer"
+        self.background     = "IT Support → Transición total a Offensive Security"
+        self.lab            = "Active Directory + Defender + CrowdStrike + SentinelOne"
+        self.current_focus  = "EDR Evasion & Custom C2 Development"
+        self.certifications = ["TryHackMe Top 1% Perú", "HackTheBox Active", "OSCP 2026"]
+        self.achievements   = ["+25 máquinas HTB retiradas", "+3.000 notas técnicas públicas"]
+        self.looking_for    = "Equipo Red Team • Bug Bounty • Proyectos Open Source"
+        self.contact        = "samuell.secure@gmail.com"
 ```
-🏆 Logros rápidos
-+25 máquinas retiradas HTB (incluyendo Dante, Sauna, Forest, etc.)
-Laboratorio personal Active Directory + EDR (Defender, CrowdStrike, SentinelOne) para pruebas reales
-Vault público CyberBrain con +3.000 notas técnicas organizadas (¡el que estás viendo!)
 
-🚀 Este repositorio – CyberBrain
-Mi segundo cerebro público. Todo lo que aprendo, organizo y automatizo termina aquí:
+---
 
-Metodologías completas (MITRE ATT&CK, PTES, OSSTMM)
-Writeups detallados de HTB, TryHackMe, Proving Grounds
-Plantillas de informes Red Team (español & inglés)
-Scripts propios (bypass, reconnaissance, post-explotación)
-MOCs gigantes de Active Directory, EDR Evasion, Cloud, etc.
+### CyberBrain — Mi segundo cerebro público
+Este repositorio contiene todo lo que aprendo y construyo:
 
-⭐ ¡Si te sirve, dale star! Eso me motiva a seguir subiendo contenido premium gratis.
+- Writeups completos (HTB • TryHackMe • Proving Grounds)  
+- Scripts propios de recon, bypass y post-explotación  
+- MOCs gigantes: Active Directory • EDR Evasion • Cloud Attacks • C2  
+- Plantillas profesionales de informes Red Team (ES/EN)  
+- Metodologías: MITRE ATT&CK • PTES • OSSTMM
 
-        self.certifications    = ["TryHackMe ", "HackTheBox Active", "OSCP Roadmap 2026"]
-        self.looking_for       = "Equipo Red Team / Bug Bounty / Proyectos Open Source"
-        self.contact           = "samuell.secure@gmail.com"
+⭐ Si este contenido te sirve → ¡dale star! Es la mejor forma de apoyarme.
+
+---
+
+<p align="center">
+  <strong>¿Hablamos?</strong><br>
+  <a href="center">samuell.secure@gmail.com</a> • Respondo siempre
+</p>
