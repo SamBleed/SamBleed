@@ -1,78 +1,95 @@
-
-<!--div align="center">
-  <img src="https://i.imgur.com/qAacJJs.jpeg" alt="SamBleed" style="width:100%; border-radius:15px; box-shadow:0 10px 40px rgba(220,20,60,0.5); border-bottom:5px solid #ff0033;">
-</div-->
-
-<h1 align="center">CyberBrain 🛡️ de SamBleed</h1>
-<p align="center">
-  <strong>Offensive Security • Red Team • Adversary Simulation</strong>
-</p>
-<p align="center">
-  <i>Piensa como atacante. Defiende como dios.</i>
-</p>
-
-<p align="center">
-  <a href="mailto:samuell.secure@gmail.com">
-    <img src="https://img.shields.io/badge/Email-samuell.secure@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://www.linkedin.com/in/tu-linkedin" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-SamBleed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-</p>
-
-<!--p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SamBleed&color=red&style=flat-square&label=Visitas+al+perfil" />
-</p-->
+<div align="center">
+  <h1>CyberBrain 🛡️ by SamBleed</h1>
+  
+  <p><strong>Offensive Security • Red Team • Defensive Automation</strong></p>
+  
+  <p><i>"Ataco como humano. Defiendo como máquina."</i></p>
+  
+  <p>
+    <a href="mailto:samuell.secure@gmail.com">
+      <img src="https://img.shields.io/badge/Email-samuell.secure@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    </a>
+    <a href="https://www.linkedin.com/in/tu-linkedin" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-SamBleed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    </a>
+  </p>
+  
+  <p>
+    <!--img src="https://img.shields.io/github/stars/SamBleed/CyberBrain?color=ff0033&style=flat-square" alt="Stars"/>
+    <img src="https://img.shields.io/github/forks/SamBleed/CyberBrain?color=ff0033&style=flat-square" alt="Forks"/>
+    <img src="https://img.shields.io/github/repo-size/SamBleed/CyberBrain?color=ff0033&style=flat-square" alt="Repo Size"/>
+    <img src="https://img.shields.io/github/last-commit/SamBleed/CyberBrain?color=ff0033&style=flat-square" alt="Last Commit"/-->
+  </p>
+</div>
 
 ---
 
-### Foco Actual (2025–2026)
-| Área                    | Investigación actual                                      | Meta 2026                              |
-|-------------------------|-----------------------------------------------------------|----------------------------------------|
-| EDR/XDR Evasion         | Syscalls directas • Hooking bypass • Reflective injection • AMSI/ETW patch | Framework propio open-source           |
-| OPSEC & Stealth C2      | Domain Fronting • DNS/CDN egress • Covenant + GrapheneOS  | Operaciones sin alertas críticas       |
-| Automatización Ofensiva | Python/Scapy/Impacket • Bash • Docker efímero           | Contribuir a Sliver, Covenant o Mythic |
-| Cloud Native Attacks    | Azure AD • AWS post-explotación • Living off the Cloud    | CCSP + publicar nuevas técnicas        |
+### 🛡️ Proyecto Destacado: MECO Framework (Tesis 2025)
+
+**Modern Enterprise Cybersecurity Orchestrator** es mi Proyecto de hardening automatizado desarrollado para transformar infraestructuras vulnerables en entornos resilientes mediante **IaC (Infrastructure as Code)**.
+
+- **Logro 01 (Red)**: Gestión perimetral con Firewall de Windows y bloqueo de tráfico entrante por defecto.
+- **Logro 02 (Identidad)**: Control estricto de políticas de cuentas y mitigación de fuerza bruta.
+- **Logro 03 (Servicios)**: Remediación automatizada de protocolos legacy (SMBv1 / Prevención contra Ransomware).
+- **Protocolo de Gestión**: Túneles seguros sobre WinRM HTTPS (Puerto 5986).
 
 ---
 
-### Stack Técnico
-<img src="https://skillicons.dev/icons?i=python,go,rust,nim,bash,powershell,linux,kali,docker,azure,aws,git,nmap,wireshark,burpsuite,metasploit,vscode" />
+### 🚀 Foco Actual (2025–2026)
 
-**Lenguajes principales**: Python 3.11+ • Go • Rust • Nim
+| Área                     | Investigación actual                                      | Meta 2026                               |
+|--------------------------|----------------------------------------------------------|-----------------------------------------|
+| **Defensive Orchestration** | **Proyecto MECO**: Hardening masivo con Ansible & PowerShell. | Framework de cumplimiento CIS automatizado. |
+| **EDR/XDR Evasion**      | Syscalls directas • Hooking bypass • Reflective injection. | Framework propio open-source.           |
+| **Cloud Native Attacks** | Azure AD • AWS post-explotación • Living off the Cloud.  | CCSP + publicar nuevas técnicas.        |
 
 ---
 
-### Sobre mí
+### 🛠️ Stack Técnico
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,go,ansible,powershell,bash,linux,kali,docker,azure,git,windows,vscode" />
+</p>
+
+**Lenguajes principales**: Python 3.11+ • Go • Rust • YAML (Ansible).
+
+---
+
+### 🧠 Sobre mí
+
 ```python
-class SamBleed(RedTeamer):
+class SamBleed(PurpleTeamer):
     def __init__(self):
-        self.role           = "Red Team Operator & Tooling Developer"
-        self.background     = "IT Support → Transición total a Offensive Security"
-        self.lab            = "Active Directory + Defender + CrowdStrike + SentinelOne"
-        self.current_focus  = "EDR Evasion & Custom C2 Development"
-        self.certifications = ["TryHackMe Top 1% Perú", "HackTheBox Active", "OSCP 2026"]
-        self.achievements   = ["+25 máquinas HTB retiradas", "+3.000 notas técnicas públicas"]
-        self.looking_for    = "Equipo Red Team • Bug Bounty • Proyectos Open Source"
-        self.contact        = "samuell.secure@gmail.com"
+        self.role = "Red Team Operator & Automation Engineer"
+        self.flagship = "Framework MECO (Hardening Orchestrator)"
+        self.lab = "Active Directory + Ansible + WinRM Secure Tunnel"
+        self.achievements = [
+            "Implementación exitosa de Hardening de Red y Servicios (SMB/Firewall)",
+            "+300 notas técnicas públicas en mi CyberBrain (Obsidian)"
+        ]
 ```
+---
+
+### 📖 CyberBrain — Mi Segundo Cerebro Operacional
+
+Este repositorio contiene la arquitectura de mi conocimiento sincronizada desde **Obsidian**. Aquí documento cada fase del **Proyecto MECO** y mis investigaciones de seguridad:
+
+| Componente              | Descripción                                              | Ubicación                          |
+|-------------------------|----------------------------------------------------------|------------------------------------|
+| 🔐 **Hardening Playbooks** | Código real (Ansible/YAML) para blindar Windows Server.  | [`/playbooks/`](playbooks/)       |
+| 📗 **MOCs Técnicos**     | Documentación profunda sobre AD, EDR Evasion y Cloud.    | [`/docs/architecture/`](docs/architecture/) |
+| 🛠️ **Metodologías**      | Implementación práctica de CIS Benchmarks y MITRE ATT&CK.| [`/docs/standards/`](docs/standards/) |
+| 📸 **Evidencias**        | Logs y capturas de despliegues de seguridad validados.   | [`/docs/assets/`](docs/assets/)   |
+
+> **Nota Técnica**: Los scripts en este cerebro han sido validados para resistir ataques de fuerza bruta mediante la reducción drástica de la superficie de ataque perimetral.
 
 ---
 
-### CyberBrain — Mi segundo cerebro público
-Este repositorio contiene todo lo que aprendo y construyo:
-
-- Writeups completos (HTB • TryHackMe • Proving Grounds)  
-- Scripts propios de recon, bypass y post-explotación  
-- MOCs gigantes: Active Directory • EDR Evasion • Cloud Attacks • C2  
-- Plantillas profesionales de informes Red Team (ES/EN)  
-- Metodologías: MITRE ATT&CK • PTES • OSSTMM
-
-⭐ Si este contenido te sirve → ¡dale star! Es la mejor forma de apoyarme.
-
----
+<p align="center">
+  ⭐ <strong>Si este contenido te sirve → ¡dale una star! Es la mejor forma de apoyarme.</strong>
+</p>
 
 <p align="center">
   <strong>¿Hablamos?</strong><br>
-  <a href="center">samuell.secure@gmail.com</a> • Respondo siempre
+  <a href="mailto:samuell.secure@gmail.com">samuell.secure@gmail.com</a>
 </p>
