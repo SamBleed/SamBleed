@@ -1,10 +1,7 @@
 <div align="center">
   <h1>CyberBrain 🛡️ by SamBleed</h1>
-  
   <p><strong>Offensive Security • Red Team • Defensive Automation</strong></p>
-  
   <p><i>"Ataco como humano. Defiendo como máquina."</i></p>
-  
   <p>
     <a href="mailto:samuell.secure@gmail.com">
       <img src="https://img.shields.io/badge/Email-samuell.secure@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
@@ -13,45 +10,50 @@
       <img src="https://img.shields.io/badge/LinkedIn-SamBleed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
   </p>
-  
-  <p>
-    <!--img src="https://img.shields.io/github/stars/SamBleed/CyberBrain?color=ff0033&style=flat-square" alt="Stars"/>
-    <img src="https://img.shields.io/github/forks/SamBleed/CyberBrain?color=ff0033&style=flat-square" alt="Forks"/>
-    <img src="https://img.shields.io/github/repo-size/SamBleed/CyberBrain?color=ff0033&style=flat-square" alt="Repo Size"/>
-    <img src="https://img.shields.io/github/last-commit/SamBleed/CyberBrain?color=ff0033&style=flat-square" alt="Last Commit"/-->
-  </p>
 </div>
+
+---
+
+### 🚨 ESTADO DEL CEREBRO: ARQUITECTURA V5.0 (Archipiélago)
+Este repositorio es un **ecosistema automatizado** de ciberseguridad diseñado para la gestión dinámica del conocimiento ofensivo.
+
+- **Indexación Dinámica**: Un motor de **Python** mapea las islas de conocimiento en tiempo real.
+- **Sincronización "Inmortal"**: Flujo de trabajo blindado mediante un script maestro que orquesta Índices + Git + Backups Cifrados.
+- **Validación CI/CD**: Cada actualización es verificada por GitHub Actions para asegurar la integridad de la estructura.
 
 ---
 
 ### 🛡️ Proyecto Destacado: MECO Framework (Tesis 2025)
 
-**Modern Enterprise Cybersecurity Orchestrator** es mi Proyecto de hardening automatizado desarrollado para transformar infraestructuras vulnerables en entornos resilientes mediante **IaC (Infrastructure as Code)**.
+**Modern Enterprise Cybersecurity Orchestrator** es mi motor de hardening automatizado diseñado para transformar infraestructuras mediante **IaC (Infrastructure as Code)**.
 
-- **Logro 01 (Red)**: Gestión perimetral con Firewall de Windows y bloqueo de tráfico entrante por defecto.
-- **Logro 02 (Identidad)**: Control estricto de políticas de cuentas y mitigación de fuerza bruta.
-- **Logro 03 (Servicios)**: Remediación automatizada de protocolos legacy (SMBv1 / Prevención contra Ransomware).
-- **Protocolo de Gestión**: Túneles seguros sobre WinRM HTTPS (Puerto 5986).
-
----
-
-### 🚀 Foco Actual (2025–2026)
-
-| Área                     | Investigación actual                                      | Meta 2026                               |
-|--------------------------|----------------------------------------------------------|-----------------------------------------|
-| **Defensive Orchestration** | **Proyecto MECO**: Hardening masivo con Ansible & PowerShell. | Framework de cumplimiento CIS automatizado. |
-| **EDR/XDR Evasion**      | Syscalls directas • Hooking bypass • Reflective injection. | Framework propio open-source.           |
-| **Cloud Native Attacks** | Azure AD • AWS post-explotación • Living off the Cloud.  | CCSP + publicar nuevas técnicas.        |
+- **Hardening de Red**: Gestión perimetral con Windows Firewall y políticas Zero-Trust.
+- **Identidad & Acceso**: Mitigación de fuerza bruta y control de políticas de cuenta GPO.
+- **Remediación Legacy**: Bloqueo automatizado de SMBv1 y protocolos vulnerables.
+- **Gestión Segura**: Despliegue sobre túneles WinRM HTTPS (Puerto 5986).
 
 ---
 
-### 🛠️ Stack Técnico
+### 🗺️ El Archipiélago de Conocimiento (MOCs Automatizados)
+
+| Isla | Foco Operacional | Ubicación del MOC |
+| :--- | :--- | :--- |
+| 🏝️ **Fundamentos** | Kernel, Protocolos, Redes y DevOps. | `1. 🏝️ ISLA: FUNDAMENTOS.../00_Index_10_FOUNDATIONS.md` |
+| 🌋 **Metodología** | Frameworks, Reportes y Auditoría. | `2. 🌋 ISLA: METODOLOGIA.../00_Index_30_METHODOLOGY.md` |
+| ⛰️ **Tácticas (TTPs)** | **Arsenal:** AD Attacks, Evasión y LotL. | `3. ⛰️ ISLA: TACTICAS.../00_Index_40_TACTICS.md` |
+| 🚢 **Entrenamiento** | Labs (HTB/THM), Writeups y Cursos. | `4. 🚢 ISLA: PUERTO.../00_Index_70_LABS.md` |
+| 🧰 **Recursos** | OneLiners, Plantillas y Caja Fuerte. | `5. 🧰 ISLA: UTILERIA.../00-Index (5 Isla).md` |
+
+---
+
+### 🛠️ Stack Técnico & Gobernanza
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,go,ansible,powershell,bash,linux,kali,docker,azure,git,windows,vscode" />
 </p>
 
-**Lenguajes principales**: Python 3.11+ • Go • Rust • YAML (Ansible).
+- **Ciclo de Vida de una TTP**: Investigación → Ejecución → Validación → `./cyberbrain-push-god.sh`.
+- **Automatización**: Los índices se regeneran automáticamente entre los marcadores `%% BEGIN LIST %%`.
 
 ---
 
@@ -62,34 +64,19 @@ class SamBleed(PurpleTeamer):
     def __init__(self):
         self.role = "Red Team Operator & Automation Engineer"
         self.flagship = "Framework MECO (Hardening Orchestrator)"
-        self.lab = "Active Directory + Ansible + WinRM Secure Tunnel"
+        self.infrastructure = "CyberBrain V5.0 (Obsidian + Python + Git)"
         self.achievements = [
-            "Implementación exitosa de Hardening de Red y Servicios (SMB/Firewall)",
-            "+300 notas técnicas públicas en mi CyberBrain (Obsidian)"
+            "Hardening automatizado de servicios críticos (SMB/Firewall)",
+            "Indexador dinámico de conocimiento desarrollado en Python",
+            "+300 notas técnicas sincronizadas en tiempo real"
         ]
+
 ```
----
-
-### 📖 CyberBrain — Mi Segundo Cerebro Operacional
-
-Este repositorio contiene la arquitectura de mi conocimiento sincronizada desde **Obsidian**. Aquí documento cada fase del **Proyecto MECO** y mis investigaciones de seguridad:
-
-| Componente              | Descripción                                              | Ubicación                          |
-|-------------------------|----------------------------------------------------------|------------------------------------|
-| 🔐 **Hardening Playbooks** | Código real (Ansible/YAML) para blindar Windows Server.  | [`/playbooks/`](playbooks/)       |
-| 📗 **MOCs Técnicos**     | Documentación profunda sobre AD, EDR Evasion y Cloud.    | [`/docs/architecture/`](docs/architecture/) |
-| 🛠️ **Metodologías**      | Implementación práctica de CIS Benchmarks y MITRE ATT&CK.| [`/docs/standards/`](docs/standards/) |
-| 📸 **Evidencias**        | Logs y capturas de despliegues de seguridad validados.   | [`/docs/assets/`](docs/assets/)   |
-
-> **Nota Técnica**: Los scripts en este cerebro han sido validados para resistir ataques de fuerza bruta mediante la reducción drástica de la superficie de ataque perimetral.
 
 ---
 
-<p align="center">
-  ⭐ <strong>Si este contenido te sirve → ¡dale una star! Es la mejor forma de apoyarme.</strong>
-</p>
-
-<p align="center">
-  <strong>¿Hablamos?</strong><br>
-  <a href="mailto:samuell.secure@gmail.com">samuell.secure@gmail.com</a>
-</p>
+<div align="center">
+<p>⭐ <strong>Si este contenido te sirve para tus operaciones → ¡dale una star!</strong></p>
+<p><strong>¿Hablamos?</strong></p>
+<a href="mailto:samuell.secure@gmail.com">samuell.secure@gmail.com</a>
+</div>
