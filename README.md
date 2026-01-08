@@ -1,21 +1,21 @@
 # CyberBrain 🛡️ by SamBleed
 ![Linux](https://img.shields.io/badge/Linux-EndeavourOS-7470AF?style=for-the-badge&logo=arch-linux&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-Server%202022-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Container-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-Automation-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+![KVM](https://img.shields.io/badge/KVM-VirtIO%20Optimized-orange?style=for-the-badge&logo=linux-foundation&logoColor=white)
+![Git](https://img.shields.io/badge/Git-GPG%20Signed-black?style=for-the-badge&logo=git&logoColor=white)
 
 **Offensive Security • Red Team • Defensive Automation** *"Ataco como humano. Defiendo como máquina."*
 
 ---
 
-### 🚨 ESTADO DEL CEREBRO: ARQUITECTURA V5.1 (Archipiélago)
+### 🚨 ESTADO DEL CEREBRO: ARQUITECTURA V6.0 (Resilience & Performance)
 
-Este repositorio es un **ecosistema automatizado** de ciberseguridad diseñado para la gestión dinámica del conocimiento ofensivo y la orquestación de infraestructura.
+Este repositorio es un **ecosistema automatizado** de ciberseguridad diseñado para la gestión dinámica del conocimiento y la orquestación de infraestructura resiliente.
 
-* **Indexación Dinámica:** Un motor de **Python** mapea las islas de conocimiento en tiempo real, garantizando que ninguna TTP quede aislada.
-* **Sincronización "Inmortal":** Flujo de trabajo blindado mediante el script maestro `cyberbrain-push-god.sh` que orquesta Índices + Git + Backups Cifrados.
-* **Validación CI/CD:** Cada actualización es verificada por GitHub Actions para asegurar la integridad de la estructura y la persistencia de los MOCs.
+* **Infraestructura High-Performance:** Implementación de drivers **VirtIO** en entornos KVM/QEMU, logrando paravirtualización total de Red y Almacenamiento.
+* **Sincronización DevSecOps:** Flujo de trabajo blindado mediante el alias `mecosync`, integrando **Firmas GPG** y control de versiones en tiempo real.
+* **Resiliencia Nativa:** Sistema de recuperación ante desastres (*DRP*) basado en hitos históricos y snapshots inmutables.
 
 ---
 
@@ -23,32 +23,22 @@ Este repositorio es un **ecosistema automatizado** de ciberseguridad diseñado p
 
 **Modern Enterprise Cybersecurity Orchestrator** es mi motor de hardening automatizado diseñado para transformar infraestructuras vulnerables mediante **IaC (Infrastructure as Code)**.
 
-* **Hardening de Red:** Gestión perimetral con Windows Firewall y políticas Zero-Trust.
-* **Identidad & Acceso:** Mitigación de fuerza bruta mediante llaves **ED25519** y control estricto de GPOs.
-* **Infraestructura Híbrida:** Despliegue optimizado en entornos **KVM/QEMU** y contenedores **Docker** para auditoría ofensiva.
-* **Gestión Segura:** Administración remota blindada vía SSH Hardened y túneles WinRM HTTPS.
+* **Optimización de Kernel:** Inyección masiva de controladores VirtIO (173 paquetes) para estabilidad en auditorías de carga.
+* **Identidad & Acceso:** Mitigación de fuerza bruta mediante políticas de bloqueo de cuenta y llaves **ED25519**.
+* **Hardening de Red:** Gestión perimetral Zero-Trust y orquestación remota segura vía SSH Hardened.
+
+
 
 ---
 
 ### 🗺️ El Archipiélago de Conocimiento (MOCs Automatizados)
 
 | Isla | Foco Operacional | Ubicación del MOC |
-| --- | --- | --- |
-| 🏝️ **Fundamentos** | Kernel, Protocolos, Redes y DevOps. | `.../00_Index_10_FOUNDATIONS.md` |
-| 🌋 **Metodología** | Frameworks (MITRE), Reportes y Auditoría. | `.../00_Index_30_METHODOLOGY.md` |
-| ⛰️ **Tácticas (TTPs)** | Arsenal: AD Attacks, Evasión y LotL. | `.../00_Index_40_TACTICS.md` |
-| 🚢 **Entrenamiento** | Labs (HTB/THM), Writeups y Cursos. | `.../00_Index_70_LABS.md` |
-| 🧰 **Recursos** | OneLiners, Plantillas y Caja Fuerte. | `.../00-Index (5 Isla).md` |
-
----
-
-### 🛠️ Stack Técnico & Gobernanza
-
-* **Ciclo de Vida de una TTP:** Investigación → Ejecución en Lab (KVM) → Validación (Kali) → Documentación en `CyberBrain`.
-* **Comandos de Operación:** * `ssh windows` & `ssh ubuntu` (Acceso instantáneo mediante llaves).
-* `kali` (Arsenal de auditoría bajo demanda).
-
-
+| :--- | :--- | :--- |
+| 🏝️ **Fundamentos** | Kernel Linux, Redes y Optimización VirtIO. | `.../00_Index_10_FOUNDATIONS.md` |
+| 🌋 **Metodología** | Frameworks (MITRE ATT&CK) y Resiliencia de Datos. | `.../00_Index_30_METHODOLOGY.md` |
+| ⛰️ **Tácticas (TTPs)** | Arsenal: AD Attacks, Evasión y Hardening de GPOs. | `.../00_Index_40_TACTICS.md` |
+| 🚢 **Entrenamiento** | Labs (HTB/THM) y Snapshots de Infraestructura. | `.../00_Index_70_LABS.md` |
 
 ---
 
@@ -57,19 +47,19 @@ Este repositorio es un **ecosistema automatizado** de ciberseguridad diseñado p
 ```python
 class SamBleed(PurpleTeamer):
     def __init__(self):
-        self.role = "Red Team Operator & Automation Engineer"
+        self.role = "Security Automation Engineer"
         self.flagship = "Framework MECO (Hardening Orchestrator)"
-        self.infrastructure = "CyberBrain V5.1 (Obsidian + Python + KVM)"
+        self.infrastructure = "CyberBrain V6.0 (KVM + VirtIO + Git-GPG)"
         self.achievements = [
-            "Hardening automatizado de servicios críticos (SMB/SSH/Firewall)",
-            "Orquestación de laboratorios híbridos KVM/Docker en entornos de bajos recursos",
-            "+300 notas técnicas sincronizadas mediante el motor 'Push-God'"
+            "Inyección de drivers VirtIO para optimización de I/O en Windows Server.",
+            "Despliegue de snapshots inmutables para resiliencia en laboratorios de Red Team.",
+            "Automatización de commits firmados mediante alias 'mecosync'."
         ]
 
     def current_mission(self):
-        return "Transforming legacy vulnerabilities into hardened infrastructure via IaC."
+        return "Building resilient, hardened infrastructures that resist modern TTPs."
 
-# Status: Online
+# Status: Online & Optimized
 sam = SamBleed()
 print(sam.current_mission())
 
@@ -77,15 +67,4 @@ print(sam.current_mission())
 
 ---
 
-⭐ **Si este contenido te sirve para tus operaciones → ¡dale una star!**
-
-**¿Hablamos?** 📧 [samuell.secure@gmail.com](mailto:samuell.secure@gmail.com)
-
-<!--
-### 🚀 Sugerencias finales de Samu (Tu AI partner):
-
-1. **Badges:** Podrías añadir badges de `Ansible`, `Python`, y `Linux` al principio para dar color.
-2. **Gifs:** Si tienes un gif de tu terminal entrando a `ssh windows` sin contraseña, ¡ponlo! Eso demuestra que lo que dices es real.
-3. **Proyectos:** Asegúrate de que los links a los MOCs funcionen realmente en el repo público.
-
-**¿Qué te parece esta versión?** Está lista para ser el escaparate de tu carrera. ¡Dale al **Push God** y que todo el mundo vea ese perfil!-->
+📧 **Contacto:** [samuell.secure@gmail.com](mailto:samuell.secure@gmail.com)
