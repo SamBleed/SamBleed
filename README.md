@@ -5,8 +5,7 @@
 ![KVM](https://img.shields.io/badge/KVM-VirtIO%20Optimized-orange?style=for-the-badge&logo=linux-foundation&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-GPG%20Signed-black?style=for-the-badge&logo=git&logoColor=white)
 
-**Offensive Security • Red Team • Defensive Automation** *"Ataco como humano. Defiendo como máquina."*
-
+**Offensive Security • Red Team • Blue Team • Machine Automation**
 ---
 
 ### 🚨 ESTADO DEL CEREBRO: ARQUITECTURA V6.0 (Resilience & Performance)
@@ -18,7 +17,6 @@ Este repositorio es un **ecosistema automatizado** de ciberseguridad diseñado p
 * **Resiliencia Nativa:** Sistema de recuperación ante desastres (*DRP*) basado en hitos históricos y snapshots inmutables.
 
 ---
-
 ### 🛡️ Proyecto Destacado: MECO Framework (Tesis 2025-2026)
 
 **Modern Enterprise Cybersecurity Orchestrator** es mi motor de hardening automatizado diseñado para transformar infraestructuras vulnerables mediante **IaC (Infrastructure as Code)**.
@@ -26,9 +24,6 @@ Este repositorio es un **ecosistema automatizado** de ciberseguridad diseñado p
 * **Optimización de Kernel:** Inyección masiva de controladores VirtIO (173 paquetes) para estabilidad en auditorías de carga.
 * **Identidad & Acceso:** Mitigación de fuerza bruta mediante políticas de bloqueo de cuenta y llaves **ED25519**.
 * **Hardening de Red:** Gestión perimetral Zero-Trust y orquestación remota segura vía SSH Hardened.
-
-
-
 ---
 
 ### 🗺️ El Archipiélago de Conocimiento (MOCs Automatizados)
@@ -64,7 +59,6 @@ sam = SamBleed()
 print(sam.current_mission())
 
 ```
-
 ---
 
 📧 **Contacto:** [samuell.secure@gmail.com](mailto:samuell.secure@gmail.com)
