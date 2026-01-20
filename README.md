@@ -1,5 +1,5 @@
 # CyberBrain 🛡️ by SamBleed
-![Linux](https://img.shields.io/badge/Linux-EndeavourOS-7470AF?style=for-the-badge&logo=arch-linux&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Archlinux-7470AF?style=for-the-badge&logo=arch-linux&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-Server%202022-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-Automation-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![KVM](https://img.shields.io/badge/KVM-VirtIO%20Optimized-orange?style=for-the-badge&logo=linux-foundation&logoColor=white)
