@@ -1,64 +1,67 @@
 # CyberBrain 🛡️ by SamBleed
 ![Linux](https://img.shields.io/badge/Linux-Archlinux-7470AF?style=for-the-badge&logo=arch-linux&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-Server%202022-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-Automation-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-![KVM](https://img.shields.io/badge/KVM-VirtIO%20Optimized-orange?style=for-the-badge&logo=linux-foundation&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Registry%20Sincronizado-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-Private%20Registry-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![SSD-Protection](https://img.shields.io/badge/SSD-Protected--RAM%20Only-green?style=for-the-badge&logo=lightning&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-GPG%20Signed-black?style=for-the-badge&logo=git&logoColor=white)
 
-**Offensive Security • Red Team • Blue Team • Machine Automation**
----
-
-### 🚨 ESTADO DEL CEREBRO: ARQUITECTURA V6.0 (Resilience & Performance)
-
-Este repositorio es un **ecosistema automatizado** de ciberseguridad diseñado para la gestión dinámica del conocimiento y la orquestación de infraestructura resiliente.
-
-* **Infraestructura High-Performance:** Implementación de drivers **VirtIO** en entornos KVM/QEMU, logrando paravirtualización total de Red y Almacenamiento.
-* **Sincronización DevSecOps:** Flujo de trabajo blindado mediante el alias `mecosync`, integrando **Firmas GPG** y control de versiones en tiempo real.
-* **Resiliencia Nativa:** Sistema de recuperación ante desastres (*DRP*) basado en hitos históricos y snapshots inmutables.
+**Cybersecurity Analyst • Infrastructure Optimization • Automation Engineer**
 
 ---
-### 🛡️ Proyecto Destacado: MECO Framework (Tesis 2025-2026)
 
-**Modern Enterprise Cybersecurity Orchestrator** es mi motor de hardening automatizado diseñado para transformar infraestructuras vulnerables mediante **IaC (Infrastructure as Code)**.
+### 🚨 ESTADO DEL CEREBRO: ARQUITECTURA V7.0 (Cloud-Native & SSD-Aware)
 
-* **Optimización de Kernel:** Inyección masiva de controladores VirtIO (173 paquetes) para estabilidad en auditorías de carga.
-* **Identidad & Acceso:** Mitigación de fuerza bruta mediante políticas de bloqueo de cuenta y llaves **ED25519**.
-* **Hardening de Red:** Gestión perimetral Zero-Trust y orquestación remota segura vía SSH Hardened.
+Este ecosistema ha evolucionado a una infraestructura híbrida diseñada para la **auditoría de alto rendimiento** sin comprometer la integridad del hardware.
+
+* **Blindaje de Hardware (SSD Protection):** Implementación de **Ramdisks (tmpfs)** de 2.0 GB para el manejo de datos volátiles, eliminando el desgaste de celdas NAND en el SSD principal.
+* **Entorno Inmutable (Dockerized):** Laboratorio de ataque basado en una imagen de Kali personalizada, versionada y alojada en **GitLab Container Registry** para despliegue instantáneo.
+* **Persistencia Bidireccional:** Sincronización en tiempo real entre el host (Arch Linux) y el contenedor de auditoría mediante volúmenes Docker gestionados por el alias `kali`.
+
 ---
 
-### 🗺️ El Archipiélago de Conocimiento (MOCs Automatizados)
+### 🛡️ Proyecto Destacado: MECO Framework (Tesis SENATI)
+
+**Modern Enterprise Cybersecurity Orchestrator** es el motor de orquestación táctica desarrollado para la titulación profesional en **SENATI**, actualmente aplicado en auditorías reales para **Owl Perú**.
+
+* **Orquestación Portátil:** Capacidad de desplegar el laboratorio completo en segundos mediante `docker pull` desde el registro privado.
+* **Resiliencia Operativa:** Arquitectura orientada a la protección de datos de auditoría y gestión de evidencias mediante flujos de trabajo blindados.
+* **Optimización de I/O:** Manejo de tráfico y logs pesados directamente en memoria RAM a velocidades superiores a 1.6 GB/s.
+
+---
+
+### 🗺️ El Archipiélago de Conocimiento (MOCs Actualizados)
 
 | Isla | Foco Operacional | Ubicación del MOC |
 | :--- | :--- | :--- |
-| 🏝️ **Fundamentos** | Kernel Linux, Redes y Optimización VirtIO. | `.../00_Index_10_FOUNDATIONS.md` |
-| 🌋 **Metodología** | Frameworks (MITRE ATT&CK) y Resiliencia de Datos. | `.../00_Index_30_METHODOLOGY.md` |
-| ⛰️ **Tácticas (TTPs)** | Arsenal: AD Attacks, Evasión y Hardening de GPOs. | `.../00_Index_40_TACTICS.md` |
-| 🚢 **Entrenamiento** | Labs (HTB/THM) y Snapshots de Infraestructura. | `.../00_Index_70_LABS.md` |
+| 🏝️ **Fundamentos** | Arch Linux, Kernel Optimization y Gestión de RAM. | `.../00_Index_10_FOUNDATIONS.md` |
+| 🌋 **Metodología** | Framework MECO, SENATI Standards y Owl Perú Docs. | `.../00_Index_30_METHODOLOGY.md` |
+| ⛰️ **Tácticas (TTPs)** | Arsenal Dockerizado, Burp Suite (SSD-Optimized) y Nmap. | `.../00_Index_40_TACTICS.md` |
+| 🚢 **Entrenamiento** | TryHackMe (Top 5%), HTB y GitLab CI/CD Registry. | `.../00_Index_70_LABS.md` |
 
 ---
 
 ### 🧠 Sobre mí
 
 ```python
-class SamBleed(PurpleTeamer):
+class SamBleed(JuniorCybersecurityAnalyst):
     def __init__(self):
-        self.role = "Security Automation Engineer"
-        self.flagship = "Framework MECO (Hardening Orchestrator)"
-        self.infrastructure = "CyberBrain V6.0 (KVM + VirtIO + Git-GPG)"
+        self.role = "DevOps / Blue Team Specialist" # Automatizando la defensa desde el despliegue.
+        self.current_project = "MECO Framework (V1.0 Stable)" #
+        self.infrastructure = "CyberBrain V7.0 (Arch Linux + Docker Registry + tmpfs)" #
         self.achievements = [
-            "Inyección de drivers VirtIO para optimización de I/O en Windows Server.",
-            "Despliegue de snapshots inmutables para resiliencia en laboratorios de Red Team.",
-            "Automatización de commits firmados mediante alias 'mecosync'."
+            "Integración de Docker Registry privado para persistencia de laboratorio.",
+            "Protección de vida útil de SSD mediante aislamiento de datos en RAM (tmpfs).", #
         ]
 
     def current_mission(self):
-        return "Building resilient, hardened infrastructures that resist modern TTPs."
+        return "Optimizing the bridge between hardware longevity and offensive security."
 
-# Status: Online & Optimized
+# Status: Online, Protected & Sincronizado
 sam = SamBleed()
 print(sam.current_mission())
 
 ```
+
 ---
 
 📧 **Contacto:** [samuell.secure@gmail.com](mailto:samuell.secure@gmail.com)
