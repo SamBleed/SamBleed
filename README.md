@@ -33,11 +33,11 @@ Este ecosistema ha evolucionado a una infraestructura híbrida diseñada para la
 
 | Isla | Foco Operacional | Ubicación del MOC |
 | :--- | :--- | :--- |
-| 🏝️ **Fundamentos** | Arch Linux, Kernel Optimization y Gestión de RAM. | `.../00_Index_10_FOUNDATIONS.md` |
-| 🌋 **Metodología** | Framework MECO, SENATI Standards y Owl Perú Docs. | `.../00_Index_30_METHODOLOGY.md` |
-| ⛰️ **Tácticas (TTPs)** | Arsenal Dockerizado, Burp Suite (SSD-Optimized) y Nmap. | `.../00_Index_40_TACTICS.md` |
-| 🚢 **Entrenamiento** | TryHackMe (Top 5%), HTB y GitLab CI/CD Registry. | `.../00_Index_70_LABS.md` |
-
+| 🏝️ **Fundamentos** | Arch Linux, Kernel Optimization y Gestión de RAM. | `.../00_Index_10_FOUNDATIONS` |
+| 🌋 **Metodología** | Framework MECO, SENATI Standards y Owl Perú Docs. | `.../00_Index_20_METHODOLOGY` |
+| ⛰️ **Tácticas (TTPs)** | Arsenal Dockerizado, Burp Suite (SSD-Optimized) y Nmap. | `.../00_Index_30_TACTICS_TTPs` |
+| 🚢 **Entrenamiento** | TryHackMe HTB y GitLab CI/CD Registry. | `.../00_Index_40_Entrenamiento` |
+| 🧰 **RESOURCES** | 51_Cheatsheets y OneLiners, 53 Referencia_Externa. | `.../00_Index_50_RESOURCES` |
 ---
 
 ### 🧠 Sobre mí
