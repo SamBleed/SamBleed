@@ -37,7 +37,7 @@ Este ecosistema ha evolucionado a una infraestructura híbrida diseñada para la
 | 🌋 **Metodología** | Framework MECO, SENATI Standards y Owl Perú Docs. | `.../00_Index_20_METHODOLOGY` |
 | ⛰️ **Tácticas (TTPs)** | Arsenal Dockerizado, Burp Suite (SSD-Optimized) y Nmap. | `.../00_Index_30_TACTICS_TTPs` |
 | 🚢 **Entrenamiento** | TryHackMe HTB y GitLab CI/CD Registry. | `.../00_Index_40_Entrenamiento` |
-| 🧰 **RESOURCES** | 51_Cheatsheets y OneLiners, 53 Referencia_Externa. | `.../00_Index_50_RESOURCES` |
+| 🧰 **RESOURCES** | Cheatsheets y OneLiners, Referencia_Externa. | `.../00_Index_50_RESOURCES` |
 ---
 
 ### 🧠 Sobre mí
