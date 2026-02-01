@@ -21,7 +21,7 @@ Este ecosistema ha evolucionado a una infraestructura de alto rendimiento diseñ
 
 ### 🛡️ Proyecto Destacado: MECO Framework (SENATI)
 
-**Modern Enterprise Cybersecurity Orchestrator** es mi framework de orquestación táctica y hardening desarrollado para la titulación en **SENATI**, aplicado actualmente en **Owl Perú**.
+**Modern Enterprise Cybersecurity Orchestrator** es mi framework de orquestación táctica y hardening
 
 * **Hardening Basado en CIS:** Automatización de políticas de seguridad y endurecimiento de sistemas.
 * **Resiliencia Operativa:** Gestión de evidencias y auditoría mediante flujos de trabajo blindados y cifrados.
