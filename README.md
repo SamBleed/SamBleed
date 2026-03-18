@@ -1,112 +1,99 @@
-# 🧠 CyberBrain | SamBleed 🛡️
+# 🧠 CyberBrain | SamBleed 🩸🛡️
 
-![Linux](https://img.shields.io/badge/Linux-Arch_Linux-1793D1?style=for-the-badge\&logo=arch-linux\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-SecOps_Environment-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-Private_Registry-FC6D26?style=for-the-badge\&logo=gitlab\&logoColor=white)
-![Security](https://img.shields.io/badge/Security-RAM_Only_Operations-green?style=for-the-badge\&logo=protonvpn\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-GPG_Signed_Commits-black?style=for-the-badge\&logo=git\&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Arch%20%7C%20Kali-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
+![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Offensive%20Lab-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-Private%20Registry-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Security](https://img.shields.io/badge/Security-RAM--Only%20%7C%20OPSEC-green?style=for-the-badge&logo=protonvpn&logoColor=white)
+![Git](https://img.shields.io/badge/Git-GPG%20Signed%20Commits-black?style=for-the-badge&logo=git&logoColor=white)
+![BurpSuite](https://img.shields.io/badge/Burp%20Suite-Active%20Recon-orange?style=for-the-badge&logo=burpsuite&logoColor=white)
 
-**Junior Cybersecurity Analyst • Blue Team • SOC L1 • Security Automation**
+**Professional in Training — Offensive Cybersecurity**  
+**Specialized in Vulnerability Analysis • Penetration Testing • Network Exploitation & Hardening**
+
+Junior Red Team / Pentester • Vulnerability Researcher • Security Automation
 
 ---
 
 ## 👨‍💻 Sobre mí
 
-Soy un **analista de ciberseguridad en formación** enfocado en **defensa, monitoreo y automatización de seguridad**.
+Soy un **profesional en formación** con fuerte enfoque en **ciberseguridad ofensiva** (Red Team). Mi pasión está en descubrir, explotar y entender vulnerabilidades en profundidad antes de que los atacantes lo hagan.
 
-Mi objetivo es desarrollarme profesionalmente en entornos **SOC (Security Operations Center)** trabajando en:
+Actualmente desarrollo habilidades en:
 
-* 🔍 **Detección de amenazas**
-* 🛡️ **Blue Team Operations**
-* ⚙️ **Automatización de seguridad**
-* 🧠 **Threat Hunting**
-* 🐧 **Linux Security Engineering**
+- 🎯 **Pentesting** (web, API, red, Active Directory)
+- 🔍 **Análisis y explotación de vulnerabilidades**
+- 🩸 **Red Team simulations & adversary emulation**
+- 🛡️ **Blue Team mindset aplicado a la ofensiva** (post-explotación OPSEC, detección evasion)
+- ⚙️ **Automatización ofensiva y defensiva** (recon, chaining, custom tooling)
+- 🐧 **Linux & Windows hardening / attacking**
 
-Trabajo principalmente en entornos **Linux**, construyendo herramientas, laboratorios y automatizaciones para mejorar procesos de seguridad.
-
----
-
-## 🧠 CyberBrain
-
-**CyberBrain** es mi entorno personal de investigación y laboratorio de ciberseguridad.
-
-Este proyecto integra:
-
-* herramientas de análisis
-* automatización de tareas de seguridad
-* contenedores para pruebas controladas
-* infraestructura reproducible para laboratorios
-
-Principios del proyecto:
-
-* 🔐 Seguridad por diseño
-* ⚙️ Infraestructura reproducible
-* 💾 Operaciones en memoria (RAM-Only)
-* 🧾 Control de versiones con commits firmados (GPG)
+Construyo laboratorios realistas, escribo PoC, automatizo flujos de ataque y estudio técnicas avanzadas de persistencia, pivoting y C2.
 
 ---
 
-## 🧪 Security Lab
+## 🧠 CyberBrain — Mi entorno de ataque y investigación
 
-Mi laboratorio personal incluye experimentación con:
+**CyberBrain** es mi laboratorio personal y framework de investigación en ciberseguridad ofensiva/defensiva.
 
-* Análisis de red
-* Simulación de ataques controlados
-* Detección de actividad maliciosa
-* Hardening de sistemas Linux
-* Automatización de tareas defensivas
+Características clave:
 
----
-
-## ⚙️ Stack Tecnológico
-
-**Sistemas**
-
-* Linux (Arch / Kali)
-* Virtualización
-* Docker
-
-**Lenguajes**
-
-* Bash
-* Python
-
-**Seguridad**
-
-* Network Analysis
-* Threat Hunting
-* Blue Team Techniques
-* OPSEC
-* Log Analysis
-
-**Dev & Infra**
-
-* Git
-* GitLab
-* Automatización de scripts
-* Entornos reproducibles
+- 🔴 Entornos **reproducibles** con Docker & compose
+- 🩸 Operaciones **RAM-only** (minimizar huella forense)
+- 🔐 Commits **GPG signed** + control de versiones estricto
+- 🛠️ Herramientas custom para recon, explotación y post-explotación
+- 📡 Simulación de entornos empresariales (AD, web apps, cloud misconfigs)
 
 ---
 
-## 📊 Objetivos Profesionales
+## 🧪 Security Lab — Áreas de experimentación activa
 
-Actualmente enfocado en desarrollar habilidades en:
-
-* Security Operations Center (SOC)
-* Threat Detection
-* Incident Response
-* Security Automation
-* Blue Team Engineering
+- Web & API penetration testing (Burp, custom scripts)
+- Network attacks & pivoting (Responder, mitm6, bloodhound)
+- Active Directory exploitation & lateral movement
+- Binary exploitation & reverse engineering básico
+- Evasion de EDR / AV / logging
+- Custom C2 frameworks y redirectors
+- Hardening Linux + detección de técnicas ofensivas
 
 ---
 
-## 📬 Contacto
+## ⚙️ Stack Tecnológico Principal
 
-📧 **[samuell.secure@gmail.com](mailto:samuell.secure@gmail.com)**
+**Ofensivo / Pentesting**  
+Burp Suite • Nuclei • ffuf • sqlmap • Metasploit • BloodHound • CrackMapExec • Impacket
 
+**Lenguajes & Scripting**  
+Python • Bash • (aprendiendo Go y Rust para tooling)
+
+**Infra & Labs**  
+Arch Linux | Kali | Docker | Proxmox | GitLab CI | Ansible (defensivo)
+
+**Análisis & OPSEC**  
+Wireshark • Sysmon • Velociraptor • RAM forensics • GPG + OPSEC hygiene
+
+---
+
+## 🎯 Objetivos a corto / mediano plazo (2026–2027)
+
+- Obtener **OSCP** o **eJPTv2** → luego **PNPT** / **CRTP**
+- Publicar **write-ups** de máquinas HTB / Proving Grounds / TryHackMe avanzadas
+- Desarrollar **herramientas open-source** enfocadas en automatización ofensiva
+- Participar en **bug bounties** (web + infra)
+- Ingresar a rol **Junior Pentester** / **Red Team Apprentice**
+
+---
+
+## 📬 Contáctame
+
+📧 **samuell.secure@gmail.com**  
+<!--.🔗 [LinkedIn](#) ← agrégalo cuando lo tengas optimizado  
+🐦 [X / Twitter](#) ← opcional, pero útil en ciberseguridad
+-->
 ---
 
 ## ⚠️ Disclaimer
 
-Este repositorio y los proyectos asociados tienen fines **educativos y de investigación en ciberseguridad**.
-Todas las pruebas se realizan en **entornos controlados o laboratorios propios**.
+Todo el contenido, herramientas y laboratorios aquí publicados tienen **fines educativos y de investigación ética**.  
+Todas las pruebas se realizan **exclusivamente en entornos propios y autorizados**.  
+**No realizo actividades ilegales ni apoyo su ejecución.**
