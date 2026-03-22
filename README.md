@@ -1,4 +1,4 @@
-### 🧠 CyberBrain | Samuel (SamBleed) 🛡️
+### Samuel (SamBleed) 🛡️
 
 **Ingeniero Junior en DevSecOps | Automatización de Seguridad y CI/CD**
 
