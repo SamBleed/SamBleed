@@ -1,6 +1,6 @@
 ### 🧠 CyberBrain | Samuel (SamBleed) 🛡️
 
-**Cybersecurity Engineering Student @ SENATI | DevSecOps & Offensive Operations**
+**Ingeniero Junior en DevSecOps | Automatización de Seguridad y CI/CD**
 
 -----
 
