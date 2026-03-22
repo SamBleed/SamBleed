@@ -1,99 +1,54 @@
-# 🧠 CyberBrain | SamBleed 🩸🛡️
+### 🧠 CyberBrain | Samuel (SamBleed) 🛡️
 
-![Linux](https://img.shields.io/badge/Linux-Arch%20%7C%20Kali-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
-![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Offensive%20Lab-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-Private%20Registry-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![Security](https://img.shields.io/badge/Security-RAM--Only%20%7C%20OPSEC-green?style=for-the-badge&logo=protonvpn&logoColor=white)
-![Git](https://img.shields.io/badge/Git-GPG%20Signed%20Commits-black?style=for-the-badge&logo=git&logoColor=white)
-![BurpSuite](https://img.shields.io/badge/Burp%20Suite-Active%20Recon-orange?style=for-the-badge&logo=burpsuite&logoColor=white)
+**Cybersecurity Engineering Student @ SENATI | DevSecOps & Offensive Operations**
 
-**Professional in Training — Offensive Cybersecurity**  
-**Specialized in Vulnerability Analysis • Penetration Testing • Network Exploitation & Hardening**
+-----
 
-Junior Red Team / Pentester • Vulnerability Researcher • Security Automation
+## 🛠️ Perfil Técnico
 
----
+Especializado en el diseño de arquitecturas de seguridad mediante el **MECO Framework** y automatización de procesos **DevSecOps**. Enfocado en la implementación de laboratorios de ataque/defensa reproducibles y auditoría de contenedores.
 
-## 👨‍💻 Sobre mí
+  * **Core:** Linux Hardening (Arch/Debian), Docker Orchestration, Shell Scripting (Bash/Python).
+  * **Defensa:** Implementación de Pipelines de seguridad (SCA con Trivy), análisis de logs y endurecimiento de infraestructura.
+  * **Ofensiva:** Vulnerability Analysis, Web App Pentesting (DVWA/HTB), Network Pivot & Exploitation.
 
-Soy un **profesional en formación** con fuerte enfoque en **ciberseguridad ofensiva** (Red Team). Mi pasión está en descubrir, explotar y entender vulnerabilidades en profundidad antes de que los atacantes lo hagan.
+-----
 
-Actualmente desarrollo habilidades en:
+## 🚀 Proyectos Destacados
 
-- 🎯 **Pentesting** (web, API, red, Active Directory)
-- 🔍 **Análisis y explotación de vulnerabilidades**
-- 🩸 **Red Team simulations & adversary emulation**
-- 🛡️ **Blue Team mindset aplicado a la ofensiva** (post-explotación OPSEC, detección evasion)
-- ⚙️ **Automatización ofensiva y defensiva** (recon, chaining, custom tooling)
-- 🐧 **Linux & Windows hardening / attacking**
+### 🐳 [Automated Pentest Lab & DevSecOps Audit](https://www.google.com/search?q=https://github.com/SamBleed/devsecops-pentest-lab)
 
-Construyo laboratorios realistas, escribo PoC, automatizo flujos de ataque y estudio técnicas avanzadas de persistencia, pivoting y C2.
+Laboratorio de ciberseguridad orquestado con **Docker Compose** que integra un ciclo de auditoría completo.
 
----
+  * **Automatización:** Pipeline en **GitHub Actions** para escaneo de vulnerabilidades (SCA) y detección de secretos en tiempo real.
+  * **Stack:** Kali Linux, Nessus Essentials, Trivy, Metasploitable3, DVWA.
+  * **Resultado:** Despliegue de red aislada (`172.18.0.0/16`) con bloqueo automático de despliegues inseguros.
 
-## 🧠 CyberBrain — Mi entorno de ataque y investigación
+### 🧠 CyberBrain (Knowledge Management)
 
-**CyberBrain** es mi laboratorio personal y framework de investigación en ciberseguridad ofensiva/defensiva.
+Base de conocimientos técnica construida en **Obsidian** sobre técnicas ofensivas, protocolos de red y tácticas de post-explotación.
 
-Características clave:
+-----
 
-- 🔴 Entornos **reproducibles** con Docker & compose
-- 🩸 Operaciones **RAM-only** (minimizar huella forense)
-- 🔐 Commits **GPG signed** + control de versiones estricto
-- 🛠️ Herramientas custom para recon, explotación y post-explotación
-- 📡 Simulación de entornos empresariales (AD, web apps, cloud misconfigs)
+## ⚙️ Stack Tecnológico
 
----
+| Categoría | Herramientas |
+| :--- | :--- |
+| **DevSecOps / Infra** | Docker, GitHub Actions, Trivy, Git (GPG Signed), Ansible |
+| **Análisis / Pentest** | Burp Suite, Nmap, Metasploit, Nessus, SQLmap, ffuf |
+| **Sistemas / Redes** | Arch Linux, Kali, Debian, Networking (Pivoting, Segmentación IP) |
+| **Lenguajes** | Bash Scripting, Python (Automatización) |
 
-## 🧪 Security Lab — Áreas de experimentación activa
+-----
 
-- Web & API penetration testing (Burp, custom scripts)
-- Network attacks & pivoting (Responder, mitm6, bloodhound)
-- Active Directory exploitation & lateral movement
-- Binary exploitation & reverse engineering básico
-- Evasion de EDR / AV / logging
-- Custom C2 frameworks y redirectors
-- Hardening Linux + detección de técnicas ofensivas
+## 🎯 Certificaciones & Educación (En Progreso)
 
----
+  * **Ingeniería de Ciberseguridad** - SENATI (2023 – Presente).
+  * **Especialización:** MECO Framework (Tesis de Grado).
+  * **Roadmap 2026:** Preparación para **OSCP** y **eJPTv2**.
 
-## ⚙️ Stack Tecnológico Principal
+-----
 
-**Ofensivo / Pentesting**  
-Burp Suite • Nuclei • ffuf • sqlmap • Metasploit • BloodHound • CrackMapExec • Impacket
+## 📬 Contacto
 
-**Lenguajes & Scripting**  
-Python • Bash • (aprendiendo Go y Rust para tooling)
-
-**Infra & Labs**  
-Arch Linux | Kali | Docker | Proxmox | GitLab CI | Ansible (defensivo)
-
-**Análisis & OPSEC**  
-Wireshark • Sysmon • Velociraptor • RAM forensics • GPG + OPSEC hygiene
-
----
-
-## 🎯 Objetivos a corto / mediano plazo (2026–2027)
-
-- Obtener **OSCP** o **eJPTv2** → luego **PNPT** / **CRTP**
-- Publicar **write-ups** de máquinas HTB / Proving Grounds / TryHackMe avanzadas
-- Desarrollar **herramientas open-source** enfocadas en automatización ofensiva
-- Participar en **bug bounties** (web + infra)
-- Ingresar a rol **Junior Pentester** / **Red Team Apprentice**
-
----
-
-## 📬 Contáctame
-
-📧 **samuell.secure@gmail.com**  
-<!--.🔗 [LinkedIn](#) ← agrégalo cuando lo tengas optimizado  
-🐦 [X / Twitter](#) ← opcional, pero útil en ciberseguridad
--->
----
-
-## ⚠️ Disclaimer
-
-Todo el contenido, herramientas y laboratorios aquí publicados tienen **fines educativos y de investigación ética**.  
-Todas las pruebas se realizan **exclusivamente en entornos propios y autorizados**.  
-**No realizo actividades ilegales ni apoyo su ejecución.**
+📧 **samuell.secure@gmail.com** 🔗 [LinkedIn](https://www.linkedin.com/in/samuel-sr/) | <!--[TryHackMe](https://www.google.com/search?q=https://tryhackme.com/p/SamBleed) | [HackTheBox](https://www.google.com/search?q=https://app.hackthebox.com/profile/tu-id)-->
