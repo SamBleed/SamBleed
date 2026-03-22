@@ -44,7 +44,7 @@ Base de conocimientos técnica construida en **Obsidian** sobre técnicas ofensi
 ## 🎯 Certificaciones & Educación (En Progreso)
 
   * **Ingeniería de Ciberseguridad** - SENATI (2023 – Presente).
-  * **Especialización:** MECO Framework (Tesis de Grado).
+  <!--* **Especialización:** MECO Framework (Tesis de Grado).-->
   * **Roadmap 2026:** Preparación para **OSCP** y **eJPTv2**.
 
 -----
