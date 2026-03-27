@@ -1,55 +1,58 @@
-# (SamBleed) 
- 
-**Cybersecurity Technician | DevSecOps & Linux Hardening**
+# (SamBleed)
 
-Trujillo, Perú 🇵🇪 | [LinkedIn](https://www.linkedin.com/in/samuel-sr/) | [GitHub](https://www.google.com/search?q=https://github.com/SamBleed) | samuell.secure@gmail.com
+**Especialista en Automatización de Seguridad y Sistemas Linux**
 
------
-
-## 🛡️ Profile
-
-Estudiante de **Ciberseguridad en SENATI** especializado en la automatización de procesos de seguridad (**DevSecOps**) y el endurecimiento de infraestructuras Linux. Mi enfoque se centra en el desplazamiento a la izquierda (*Shift-Left*) de la seguridad, integrando auditorías automáticas en el ciclo de vida del software.
-
-  * **Systems:** Administración y Hardening de entornos **Arch Linux** y Debian (Kernel tuning, isolation).
-  * **Container Security:** Implementación de despliegues seguros en **Docker** (Non-root users, SCA).
-  * **Automation:** Orquestación de flujos de trabajo en **GitHub Actions** para seguridad preventiva.
+Trujillo, PE | [LinkedIn](https://www.linkedin.com/in/samuel-sr/) | [GitHub](https://www.google.com/search?q=https://github.com/SamBleed)
 
 -----
 
-## 🚀 Key Projects
+## 🛡️ Mi Enfoque
 
-### [Owl-Peru: CI/CD Security Audit System](https://github.com/SamBleed/Owl-Peru-Tesis)
+Me especializo en crear sistemas que se protegen a sí mismos. Como estudiante de **Ciberseguridad en SENATI**, mi trabajo es diseñar flujos de trabajo donde la seguridad no sea un obstáculo, sino una parte natural del proceso. Me enfoco en que cada aplicación sea revisada y blindada de forma automática antes de ser utilizada.
 
-Sistema de integración y despliegue continuo con auditoría de seguridad automatizada para aplicaciones FastAPI.
-
-  * **Stack:** Python, Docker, Bandit, Trivy, GitHub Actions (Node 24).
-  * **Core:** Implementación de políticas de *Breaking Builds* basadas en umbrales de severidad Crítica/Alta.
-
-### [CyberBrain: Knowledge Management](https://www.google.com/search?q=https://github.com/SamBleed/Cyber-Engineering-Vault)
-
-Estructura técnica de gestión de conocimiento en **Obsidian** que documenta protocolos de red, tácticas defensivas y flujos de trabajo de ingeniería de seguridad.
+  * **Sistemas e Infraestructura:** Experto en el manejo y endurecimiento de sistemas **Linux** (Arch y Debian), asegurando que el corazón de la tecnología sea sólido y resistente.
+  * **Blindaje de Aplicaciones:** Especialista en el uso de **Docker** para empaquetar software de forma aislada, limitando sus permisos para evitar accesos no autorizados.
+  * **Seguridad Automática:** Configuración de procesos digitales que auditan el código en tiempo real, detectando errores y fugas de información antes de que se conviertan en un problema.
 
 -----
 
-## ⚙️ Technical Stack
+## 🚀 Proyectos en Desarrollo
 
-| Category | Tools |
+### [Owl-Peru: Blindaje Automático de Aplicaciones](https://github.com/SamBleed/Owl-Peru-Tesis)
+
+Es mi proyecto de tesis. He desarrollado un sistema que actúa como un "control de calidad de seguridad". Cada vez que se hace un cambio en el software, el sistema lo analiza: si encuentra un fallo peligroso, detiene el avance y avisa al equipo para corregirlo de inmediato.
+
+  * **Tecnologías:** Python, Docker, herramientas de auditoría automática.
+
+### [Cyber-Engineering: Mi Base de Conocimientos](https://www.google.com/search?q=https://github.com/SamBleed/Cyber-Engineering-Vault)
+
+Un repositorio técnico donde documento y organizo tácticas de defensa, protocolos de comunicación y soluciones de ingeniería. Es mi motor de aprendizaje continuo.
+
+-----
+
+## ⚙️ Habilidades Técnicas
+
+| Área | Herramientas y Conocimientos |
 | :--- | :--- |
-| **DevSecOps & Infra** | Docker, GitHub Actions, Trivy, Git, Bash Scripting |
-| **Security Audit** | Nmap, Burp Suite, Metasploit, Nessus (Essentials) |
-| **Operating Systems** | Arch Linux, Debian, Kali Linux |
-| **Development** | Python (Automation), Networking (TCP/IP), SQL |
+| **Protección y Nube** | Docker, GitHub Actions, Auditoría Automática, Git |
+| **Análisis de Riesgos** | Nmap, Metasploit, Análisis de vulnerabilidades |
+| **Sistemas Operativos** | Arch Linux, Debian, Kali Linux |
+| **Programación y Redes** | Python para automatización, Redes (TCP/IP), SQL |
 
 -----
 
-## 🎯 Roadmap 2026
+## 🎯 Objetivos 2026
 
-  * **Academic:** Egreso de la carrera técnica de Ciberseguridad - **SENATI**.
-  * **Technical:** Perfeccionamiento de pipelines avanzados de seguridad y gestión de artefactos.
-  * **Certifications:** Preparación activa para las credenciales **eJPTv2** y **OSCP**.
+  * 🎓 **Finalización Académica:** Culminar la carrera de Ciberseguridad en **SENATI**.
+  * 🛠️ **Ingeniería Preventiva:** Perfeccionar sistemas de revisión automática de software.
+  * 📜 **Certificaciones Profesionales:** Preparación activa para obtener las credenciales internacionales **eJPTv2** y **OSCP**.
 
 -----
 
-## 📬 Contact
+## 📬 Contacto
 
+Si buscas a alguien enfocado en construir tecnología segura y eficiente, ¡hablemos\!
 📧 **samuell.secure@gmail.com**
+4.  **Título de impacto:** El título oficial de tu tesis suena muy potente y explica por sí solo qué problema estás resolviendo.
+
+¿Qué te parece esta versión? Es sobria, profesional y deja claro que eres el tipo de persona que soluciona problemas de seguridad con tecnología.
