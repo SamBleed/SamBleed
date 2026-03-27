@@ -2,7 +2,7 @@
 
 **Especialista en Automatización de Seguridad y Sistemas Linux**
 
-Trujillo, PE | [LinkedIn](https://www.linkedin.com/in/samuel-sr/) | [GitHub](https://www.google.com/search?q=https://github.com/SamBleed)
+Trujillo, PE | [LinkedIn](https://www.linkedin.com/in/samuel-sr/) | [Gitlab](https://gitlab.com/SamBleed)
 
 -----
 
@@ -32,12 +32,13 @@ Un repositorio técnico donde documento y organizo tácticas de defensa, protoco
 
 ## ⚙️ Habilidades Técnicas
 
-| Área | Herramientas y Conocimientos |
+| Área | Especialidad y Herramientas |
 | :--- | :--- |
-| **Protección y Nube** | Docker, GitHub Actions, Auditoría Automática, Git |
-| **Análisis de Riesgos** | Nmap, Metasploit, Análisis de vulnerabilidades |
-| **Sistemas Operativos** | Arch Linux, Debian, Kali Linux |
-| **Programación y Redes** | Python para automatización, Redes (TCP/IP), SQL |
+| **Infraestructura Segura** | **Docker**, Empaquetamiento de aplicaciones, Gestión de contenedores (Non-root). |
+| **Automatización de Seguridad** | **GitHub Actions**, Creación de flujos de trabajo automáticos (CI/CD), Git. |
+| **Desarrollo y Scripts** | **Python** para automatizar tareas, Creación de herramientas de auditoría, SQL. |
+| **Sistemas Operativos** | **Arch Linux**, Debian, Kali Linux (Configuración y endurecimiento de sistemas). |
+| **Análisis y Redes** | Auditoría de redes (TCP/IP), Análisis de vulnerabilidades, Nmap, Metasploit. |
 
 -----
 
@@ -53,6 +54,3 @@ Un repositorio técnico donde documento y organizo tácticas de defensa, protoco
 
 Si buscas a alguien enfocado en construir tecnología segura y eficiente, ¡hablemos\!
 📧 **samuell.secure@gmail.com**
-4.  **Título de impacto:** El título oficial de tu tesis suena muy potente y explica por sí solo qué problema estás resolviendo.
-
-¿Qué te parece esta versión? Es sobria, profesional y deja claro que eres el tipo de persona que soluciona problemas de seguridad con tecnología.
