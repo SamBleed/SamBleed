@@ -1,5 +1,5 @@
-# Samuel Samir Salinas Romero (SamBleed)
-
+# (SamBleed) 
+ 
 **Cybersecurity Technician | DevSecOps & Linux Hardening**
 
 Trujillo, Perú 🇵🇪 | [LinkedIn](https://www.linkedin.com/in/samuel-sr/) | [GitHub](https://www.google.com/search?q=https://github.com/SamBleed) | samuell.secure@gmail.com
