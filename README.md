@@ -27,9 +27,9 @@ Sistema de control de calidad orientado a seguridad. Analiza cambios en el códi
 
 `Python` `Docker` `GitHub Actions` `SAST/SCA`
 
-### [Cyber-Engineering Vault](https://github.com/SamBleed/Cyber-Engineering-Vault)
+<!--### [Cyber-Engineering Vault](https://github.com/SamBleed/Cyber-Engineering-Vault)
 Repositorio personal de referencia técnica. Incluye configuraciones de hardening, tácticas defensivas y soluciones documentadas en ciberseguridad.
-
+-->
 ---
 
 ## Habilidades
