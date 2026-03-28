@@ -1,11 +1,10 @@
-
 <p align="center">
   <img src="https://github.com/SamBleed/SamBleed/blob/main/assets/banner.png?raw=true"
        alt="SamBleed Banner"
        width="100%" />
 </p>
 
-**Especialista en Automatización de Seguridad y Sistemas Linux**  
+**Seguridad · Automatización · Sistemas Linux**  
 Trujillo, Perú 🇵🇪
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuel-sr/)
@@ -13,59 +12,46 @@ Trujillo, Perú 🇵🇪
 
 ---
 
-## 🛡️ Mi Enfoque
+## Sobre mí
 
-Me especializo en crear **sistemas que se protegen a sí mismos**.
+Estudiante de **Ciberseguridad en SENATI**, con enfoque práctico en DevSecOps y hardening de sistemas Linux.
 
-Como estudiante de **Ciberseguridad en SENATI**, diseño flujos de trabajo donde la seguridad forma parte natural del desarrollo. Mi objetivo es eliminar fricciones y convertir la seguridad en un habilitador automático del proceso.
-
-### Fortalezas principales:
-- **Endurecimiento de Sistemas Linux** — Arch y Debian a nivel avanzado
-- **Seguridad en Contenedores** — Docker con aislamiento fuerte y mínimo privilegio
-- **Automatización de Seguridad** — Pipelines inteligentes que auditan en tiempo real
+Me interesa integrar la seguridad desde las primeras etapas del desarrollo, no como un paso final, sino como parte del flujo de trabajo. Actualmente construyo herramientas que automatizan auditorías y refuerzan pipelines CI/CD.
 
 ---
 
-## 🚀 Proyectos Destacados
+## Proyectos
 
-### [Owl-Peru: Blindaje Automático de Aplicaciones](https://github.com/SamBleed/Owl-Peru-Tesis)
-**Proyecto de Tesis**
+### [Owl-Peru](https://github.com/SamBleed/Owl-Peru-Tesis) — Proyecto de Tesis
+Sistema de control de calidad orientado a seguridad. Analiza cambios en el código en busca de vulnerabilidades críticas e interrumpe el pipeline cuando es necesario, con notificación para corrección.
 
-Sistema inteligente de control de calidad de seguridad. Analiza automáticamente cada cambio en el código y, si detecta vulnerabilidades críticas, detiene el pipeline y notifica para corrección inmediata.
-
-**Tecnologías:** Python • Docker • GitHub Actions • SAST/SCA
+`Python` `Docker` `GitHub Actions` `SAST/SCA`
 
 ### [Cyber-Engineering Vault](https://github.com/SamBleed/Cyber-Engineering-Vault)
-Mi repositorio de conocimiento técnico activo. Documento tácticas defensivas, configuraciones de hardening, protocolos seguros y soluciones prácticas de ingeniería en ciberseguridad.
+Repositorio personal de referencia técnica. Incluye configuraciones de hardening, tácticas defensivas y soluciones documentadas en ciberseguridad.
 
 ---
 
-## ⚙️ Habilidades Técnicas
+## Habilidades
 
-| Área                        | Herramientas y Especialidades                          |
-|-----------------------------|---------------------------------------------------------|
-| **Infraestructura**         | Docker, Contenedores non-root, Hardening de imágenes    |
-| **Automatización**          | GitHub Actions, CI/CD, Pipelines de seguridad          |
-| **Desarrollo**              | Python, Bash, SQL, Git                                  |
-| **Sistemas Operativos**     | Arch Linux, Debian, Kali Linux (Hardening avanzado)    |
-| **Redes y Auditoría**       | Nmap, Metasploit, Análisis de vulnerabilidades         |
-
----
-
-## 🎯 Próximos Pasos
-
-- 🎓 Finalizar la carrera de **Ciberseguridad** en SENATI con enfoque en DevSecOps
-- 🛠️ Desarrollar herramientas avanzadas de seguridad automatizada y prevención de vulnerabilidades
-- 🚀 Ganar experiencia real aplicando automatización de seguridad en proyectos complejos
+| Área                    | Herramientas                                            |
+|-------------------------|---------------------------------------------------------|
+| **Infraestructura**     | Docker, contenedores non-root, hardening de imágenes    |
+| **Automatización**      | GitHub Actions, CI/CD, pipelines de seguridad           |
+| **Desarrollo**          | Python, Bash, SQL, Git                                  |
+| **Sistemas**            | Arch Linux, Debian, Kali Linux                          |
+| **Redes y Auditoría**   | Nmap, Metasploit, análisis de vulnerabilidades          |
 
 ---
 
-## 📬 Contáctame
+## En progreso
 
-Si estás buscando alguien apasionado por **DevSecOps**, hardening de sistemas Linux o seguridad automatizada, ¡hablemos!
+- Finalizar la carrera de Ciberseguridad con foco en DevSecOps
+- Seguir desarrollando herramientas de seguridad automatizada
+- Buscar oportunidades para aplicar lo aprendido en proyectos reales
+
+---
+
+## Contacto
 
 **Email:** samuell.secure@gmail.com
-
----
-
-**"Construyendo sistemas que se defienden solos."**
