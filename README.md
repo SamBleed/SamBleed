@@ -46,7 +46,7 @@ Repositorio personal de referencia técnica. Incluye configuraciones de hardenin
 
 ## En progreso
 
-- Finalizar la carrera de Ciberseguridad con foco en DevSecOps
+- Finalizar la carrera de Ciberseguridad con foco en DevOps
 - Seguir desarrollando herramientas de seguridad automatizada
 - Buscar oportunidades para aplicar lo aprendido en proyectos reales
 
