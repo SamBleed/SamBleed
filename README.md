@@ -14,7 +14,7 @@ Trujillo, Perú 🇵🇪
 
 ## Sobre mí
 
-Estudiante de **Ciberseguridad en SENATI**, con enfoque práctico en DevSecOps y hardening de sistemas Linux.
+Estudiante de **Ciberseguridad en SENATI**, con enfoque práctico en DevOps y hardening de sistemas Linux.
 
 Me interesa integrar la seguridad desde las primeras etapas del desarrollo, no como un paso final, sino como parte del flujo de trabajo. Actualmente construyo herramientas que automatizan auditorías y refuerzan pipelines CI/CD.
 
