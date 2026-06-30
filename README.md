@@ -14,6 +14,10 @@
 ```
 
 <p align="center">
+  <img src="https://boardingpass.jstnlt.my.id/api/card?username=SamBleed&theme=dark" width="90%" />
+</p>
+
+<p align="center">
   <a href="https://github.com/SamBleed/ozy-pipeline"><b>Ozy Pipeline</b></a>
   <span> · </span>
   <a href="https://www.linkedin.com/in/samuel-sr/"><b>LinkedIn</b></a>
