@@ -2,13 +2,41 @@
   <img src="https://github.com/SamBleed/SamBleed/blob/main/assets/banner.png?raw=true" alt="banner" width="100%" />
 </p>
 
+```
+~ whoami
+────────────────────────────────────────
+  Samuel
+  Security Engineer · DevSecOps
+  Trujillo, Perú
+
+  building Ozy Pipeline — an on-premise
+  security gate for git push
+────────────────────────────────────────
+```
+
+```
+~ skills
+────────────────────────────────────────
+  Ciberseguridad   Bug Bounty       DevSecOps
+  Pentesting       Backend          Automation
+  AI/Vibe Coding   Arch Linux
+────────────────────────────────────────
+```
+
+```
+~ stack
+────────────────────────────────────────
+  Go · Python · Bash · Docker · Linux
+  PostgreSQL · Git · Neovim
+────────────────────────────────────────
+```
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Ciberseguridad-000?style=for-the-badge&logo=security&logoColor=00FF41" />
-  <img src="https://img.shields.io/badge/Bug_Bounty-000?style=for-the-badge&logo=bugcrowd&logoColor=white" />
-  <img src="https://img.shields.io/badge/DevSecOps-000?style=for-the-badge&logo=githubactions&logoColor=00FF41" />
-  <img src="https://img.shields.io/badge/Pentesting-000?style=for-the-badge&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Backend-000?style=for-the-badge&logo=go&logoColor=00FF41" />
-  <img src="https://img.shields.io/badge/Automation-000?style=for-the-badge&logo=ansible&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI_Coding-000?style=for-the-badge&logo=openai&logoColor=00FF41" />
-  <img src="https://img.shields.io/badge/Arch_Linux-000?style=for-the-badge&logo=archlinux&logoColor=00FF41" />
+  <a href="https://github.com/SamBleed/ozy-pipeline"><b>ozy pipeline</b></a>
+  ·
+  <a href="https://www.linkedin.com/in/samuel-sr/">linkedin</a>
+  ·
+  <a href="mailto:samuell.secure@gmail.com">email</a>
+  ·
+  <a href="https://gitlab.com/SamBleed">gitlab</a>
 </p>
