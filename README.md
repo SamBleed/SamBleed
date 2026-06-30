@@ -2,18 +2,15 @@
   <img src="https://github.com/SamBleed/SamBleed/blob/main/assets/banner.png?raw=true" alt="banner" width="100%" />
 </p>
 
-```yaml
-╔═══════════════════════════════════════════════╗
-║             SYSTEM PROFILE                    ║
-╠═══════════════════════════════════════════════╣
-║  NAME:   Samuel                              ║
-║  ORIGIN: Trujillo, Perú 🇵🇪                   ║
-║  ROLE:   Security Engineer / DevSecOps        ║
-║  FOCUS:  On-premise security, automation      ║
-║  BUILD:  Ozy Pipeline — security gate         ║
-║  CREDO:  "Security isn't a feature —          ║
-║           it's a workflow."                   ║
-╚═══════════════════════════════════════════════╝
+```json
+{
+  "name": "Samuel",
+  "origin": "Trujillo, Perú 🇵🇪",
+  "role": "Security Engineer / DevSecOps",
+  "focus": ["on-premise security", "pipeline hardening", "automation"],
+  "project": "Ozy Pipeline — security gate for git push",
+  "credo": "Security isn't a feature — it's a workflow."
+}
 ```
 
 <p align="center">
@@ -27,18 +24,14 @@
   <img src="https://img.shields.io/badge/GitLab-Profile-FC6D26?style=for-the-badge&logo=gitlab&logoColor=FC6D26&labelColor=0D1117&color=FC6D26" />
 </p>
 
-```yaml
-═════════════════════════════════════════════════
-  TOOLS
-═════════════════════════════════════════════════
-  SEC:    Gitleaks · Semgrep · Trivy · Checkov
-          TruffleHog · Grype · Syft · Nmap
-  INFRA:  Docker · Podman · Compose · MinIO
-          PostgreSQL · pgvector · NATS
-  CI/CD:  GitHub Actions · GitLab CI
-  OBS:    Prometheus · Grafana · SigNoz · OTel
-  SYS:    Arch · Kali · Neovim
-═════════════════════════════════════════════════
+```json
+"tools": {
+  "security":  ["Gitleaks", "Semgrep", "Trivy", "Checkov", "TruffleHog", "Grype", "Syft", "Nmap"],
+  "infra":     ["Docker", "Podman", "Compose", "MinIO", "PostgreSQL", "pgvector", "NATS"],
+  "ci/cd":     ["GitHub Actions", "GitLab CI"],
+  "observability": ["Prometheus", "Grafana", "SigNoz", "OpenTelemetry"],
+  "systems":   ["Arch Linux", "Kali Linux", "Neovim"]
+}
 ```
 
 <p align="center">
