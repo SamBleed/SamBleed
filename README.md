@@ -3,14 +3,17 @@
 </p>
 
 ```yaml
-─ whoami ──────────────────────────────────────
-  name: Samuel
-  from: Trujillo, Perú 🇵🇪
-  role: Security Engineer / DevSecOps
-  focus: On-premise security, pipeline hardening, automation
-  build: Ozy Pipeline — security gate for git push
-  credo: "Security isn't a feature — it's a workflow."
-───────────────────────────────────────────────
+╔═══════════════════════════════════════════════╗
+║             SYSTEM PROFILE                    ║
+╠═══════════════════════════════════════════════╣
+║  NAME:   Samuel                              ║
+║  ORIGIN: Trujillo, Perú 🇵🇪                   ║
+║  ROLE:   Security Engineer / DevSecOps        ║
+║  FOCUS:  On-premise security, automation      ║
+║  BUILD:  Ozy Pipeline — security gate         ║
+║  CREDO:  "Security isn't a feature —          ║
+║           it's a workflow."                   ║
+╚═══════════════════════════════════════════════╝
 ```
 
 <p align="center">
@@ -18,57 +21,31 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/SamBleed/ozy-pipeline"><b>Ozy Pipeline</b></a>
-  <span> · </span>
-  <a href="https://www.linkedin.com/in/samuel-sr/"><b>LinkedIn</b></a>
-  <span> · </span>
-  <a href="mailto:samuell.secure@gmail.com"><b>Email</b></a>
-  <span> · </span>
-  <a href="https://gitlab.com/SamBleed"><b>GitLab</b></a>
+  <img src="https://img.shields.io/badge/PROJECT-Ozy_Pipeline-00FF00?style=for-the-badge&logo=go&logoColor=00FF00&labelColor=0D1117&color=00FF00" />
+  <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0D1117&color=0A66C2" />
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117&color=EA4335" />
+  <img src="https://img.shields.io/badge/GitLab-Profile-FC6D26?style=for-the-badge&logo=gitlab&logoColor=FC6D26&labelColor=0D1117&color=FC6D26" />
 </p>
 
----
-
-## 🧰 Tech Stack
+```yaml
+═════════════════════════════════════════════════
+  TOOLS
+═════════════════════════════════════════════════
+  SEC:    Gitleaks · Semgrep · Trivy · Checkov
+          TruffleHog · Grype · Syft · Nmap
+  INFRA:  Docker · Podman · Compose · MinIO
+          PostgreSQL · pgvector · NATS
+  CI/CD:  GitHub Actions · GitLab CI
+  OBS:    Prometheus · Grafana · SigNoz · OTel
+  SYS:    Arch · Kali · Neovim
+═════════════════════════════════════════════════
+```
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=go,python,bash,linux,docker,git,github,gitlab,postgres,nginx,prometheus,grafana,neovim&perline=13" />
+  <img src="https://skillicons.dev/icons?i=go,python,bash,linux,docker,git,postgres,nginx,prometheus,grafana,neovim&perline=11" />
 </p>
 
-<table>
-  <tr>
-    <th>Category</th>
-    <th>Tools</th>
-  </tr>
-  <tr>
-    <td><b>Security Scanning</b></td>
-    <td>Gitleaks · Semgrep · Trivy · Checkov · TruffleHog · Grype · Syft</td>
-  </tr>
-  <tr>
-    <td><b>Infrastructure</b></td>
-    <td>Docker · Podman · Compose · non-root containers · image hardening</td>
-  </tr>
-  <tr>
-    <td><b>CI/CD & Automation</b></td>
-    <td>GitHub Actions · GitLab CI · NATS · automated pipelines</td>
-  </tr>
-  <tr>
-    <td><b>Databases & Storage</b></td>
-    <td>PostgreSQL · pgvector · MinIO (S3)</td>
-  </tr>
-  <tr>
-    <td><b>Observability</b></td>
-    <td>Prometheus · Grafana · SigNoz · OpenTelemetry · FluentBit</td>
-  </tr>
-  <tr>
-    <td><b>Network & Audit</b></td>
-    <td>Nmap · Metasploit · Wireshark · vulnerability analysis</td>
-  </tr>
-</table>
-
 ---
-
-## 📊 GitHub Analytics
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SamBleed&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&count_private=true&include_all_commits=true" height="170" />
