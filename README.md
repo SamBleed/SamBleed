@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="https://htmlpreview.github.io/?https://github.com/SamBleed/SamBleed/blob/main/assets/profile.html">
+  <a href="https://sambleed.github.io/SamBleed/assets/profile.html">
     <img src="https://img.shields.io/badge/▸_full_profile-1a1b2e?style=for-the-badge&logo=markdown&logoColor=bb9af7" alt="full profile">
   </a>
 </p>
