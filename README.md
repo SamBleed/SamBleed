@@ -1,42 +1,52 @@
-<p align="center">
-  <img src="https://github.com/SamBleed/SamBleed/blob/main/assets/banner.png?raw=true" alt="banner" width="100%" />
-</p>
+<div align="center">
+  <img src="https://github.com/SamBleed/SamBleed/blob/main/assets/banner.png?raw=true" width="100%">
+</div>
 
-```
+<br>
+
+<pre>
 ~ whoami
 ────────────────────────────────────────
-  Samuel
-  Security Engineer · DevSecOps
-  Trujillo, Perú
-
-  building Ozy Pipeline — an on-premise
-  security gate for git push
+  name:    Samuel
+  role:    Security Engineer / DevSecOps
+  from:    Trujillo, Perú
+  project: Ozy Pipeline — security gate
 ────────────────────────────────────────
-```
+</pre>
 
-```
+<pre>
 ~ skills
 ────────────────────────────────────────
-  Ciberseguridad   Bug Bounty       DevSecOps
-  Pentesting       Backend          Automation
-  AI/Vibe Coding   Arch Linux
+  ciberseguridad  ·  bug bounty
+  devsecops       ·  pentesting
+  backend         ·  automation
+  ai/vibe coding  ·  arch linux
 ────────────────────────────────────────
-```
+</pre>
 
-```
+<pre>
 ~ stack
 ────────────────────────────────────────
-  Go · Python · Bash · Docker · Linux
-  PostgreSQL · Git · Neovim
+  go  ·  python  ·  bash
+  docker  ·  linux  ·  git
+  postgresql  ·  neovim
 ────────────────────────────────────────
-```
+</pre>
 
-<p align="center">
-  <a href="https://github.com/SamBleed/ozy-pipeline"><b>ozy pipeline</b></a>
-  ·
-  <a href="https://www.linkedin.com/in/samuel-sr/">linkedin</a>
-  ·
-  <a href="mailto:samuell.secure@gmail.com">email</a>
-  ·
-  <a href="https://gitlab.com/SamBleed">gitlab</a>
-</p>
+<br>
+
+<div align="center">
+  <a href="https://github.com/SamBleed/ozy-pipeline">▸ ozy pipeline</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/samuel-sr/">▸ linkedin</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:samuell.secure@gmail.com">▸ email</a>
+  &nbsp;·&nbsp;
+  <a href="https://gitlab.com/SamBleed">▸ gitlab</a>
+</div>
+
+<br>
+
+<div align="center">
+  <sub>~ $ exit</sub>
+</div>

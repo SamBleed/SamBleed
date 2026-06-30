@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel — sec</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg:        #1a1b2e;
+      --surface:   #1e2030;
+      --border:    #2a2c45;
+      --text:      #c0caf5;
+      --subtext:   #a9b1d6;
+      --comment:   #565f89;
+      --blue:      #7aa2f7;
+      --cyan:      #7dcfff;
+      --green:     #9ece6a;
+      --orange:    #ff9e64;
+      --red:       #f7768e;
+      --purple:    #bb9af7;
+      --yellow:    #e0af68;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Menlo', monospace;
+      display: flex;
+      justify-content: center;
+      padding: 2.5rem 1rem;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container { max-width: 740px; width: 100%; }
+
+    .top-bar {
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 0.75rem; color: var(--comment); margin-bottom: 2.5rem;
+      text-transform: uppercase; letter-spacing: 0.08em;
+    }
+    .top-bar .tl strong { color: var(--text); font-weight: 500; }
+    .top-bar .time { color: var(--comment); }
+    .top-bar .badge {
+      border: 1px solid var(--border); padding: 0.25rem 0.6rem; border-radius: 4px;
+      font-size: 0.6rem; letter-spacing: 0.1em; color: var(--comment);
+    }
+
+    .whoami { margin-bottom: 3rem; }
+    .prompt { font-size: 0.75rem; color: var(--comment); margin-bottom: 0.75rem; }
+    .whoami h1 { font-size: 2.2rem; font-weight: 500; color: var(--text); margin-bottom: 0.5rem; letter-spacing: -0.02em; }
+    .whoami h1 .dim { color: var(--comment); font-weight: 400; }
+    .whoami h1 .accent { color: var(--blue); }
+    .whoami .bio { color: var(--subtext); font-size: 0.85rem; line-height: 1.7; margin-bottom: 1.25rem; max-width: 90%; }
+
+    .building {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      border: 1px solid var(--border); padding: 0.4rem 0.8rem; border-radius: 6px;
+      font-size: 0.78rem; color: var(--subtext); margin-bottom: 1.5rem;
+    }
+    .building .arrow { color: var(--blue); }
+    .building strong { color: var(--text); font-weight: 500; }
+
+    .skills {
+      display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 1.5rem;
+    }
+    .skills span {
+      background: var(--surface); border: 1px solid var(--border); padding: 0.25rem 0.6rem;
+      border-radius: 4px; font-size: 0.72rem; color: var(--subtext);
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .skills span:hover { border-color: var(--blue); color: var(--blue); }
+
+    .cta-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .cta-row a {
+      display: inline-block; padding: 0.45rem 1rem; border-radius: 6px;
+      font-size: 0.78rem; text-decoration: none; border: 1px solid var(--border);
+      color: var(--subtext); transition: all 0.15s;
+    }
+    .cta-row a:hover { border-color: var(--blue); color: var(--blue); }
+    .cta-row .primary {
+      background: var(--blue); color: var(--bg); border-color: var(--blue); font-weight: 600;
+    }
+    .cta-row .primary:hover { background: #89b4fa; color: var(--bg); }
+
+    .section { margin-bottom: 2.5rem; }
+    .sec-header { font-size: 0.8rem; color: var(--comment); margin-bottom: 0.75rem; }
+    .sec-header .prompt-color { color: var(--blue); }
+    .sec-header .cmd { color: var(--green); }
+    .sec-header .dim { color: var(--comment); }
+
+    .card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+      padding: 1.25rem; margin-bottom: 0.6rem;
+    }
+    .card-header {
+      display: flex; justify-content: space-between; align-items: baseline;
+      flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.3rem;
+    }
+    .card-header .title { font-size: 0.9rem; color: var(--text); font-weight: 500; }
+    .card-header .title a { color: var(--text); text-decoration: none; }
+    .card-header .title a:hover { color: var(--blue); }
+    .card-header .sub { font-size: 0.7rem; color: var(--comment); }
+    .card-header .lang { color: var(--orange); }
+    .card-header .lang-go { color: var(--blue); }
+    .card-header .lang-dart { color: var(--cyan); }
+    .card-header .lang-ts { color: var(--blue); }
+    .card-header .lang-py { color: var(--yellow); }
+    .card-desc { font-size: 0.78rem; color: var(--subtext); line-height: 1.6; }
+    .card-desc strong { color: var(--text); }
+    .card-tags {
+      display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.6rem;
+    }
+    .card-tags span {
+      font-size: 0.65rem; color: var(--comment); background: rgba(86,95,137,0.15);
+      padding: 0.15rem 0.45rem; border-radius: 3px;
+    }
+    .card-tags .highlight { color: var(--blue); }
+
+    .footer {
+      text-align: center; font-size: 0.7rem; color: var(--comment); margin-top: 3rem;
+      padding-top: 1.5rem; border-top: 1px solid var(--border); line-height: 1.8;
+    }
+    .footer span { color: var(--subtext); }
+
+    @media (max-width: 640px) {
+      .whoami .bio { max-width: 100%; }
+      .top-bar { flex-wrap: wrap; gap: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="top-bar">
+      <div><span class="tl"><strong>tl;dr</strong> &middot; samuel / sec</span></div>
+      <div class="time" id="clock">--:--</div>
+      <div class="badge">building</div>
+    </div>
+
+    <div class="whoami">
+      <div class="prompt">~ whoami</div>
+      <h1>samuel<span class="accent">/</span>sec</h1>
+      <div class="bio">
+        security engineer building on-premise security tools.
+        focused on devsecops, automation, and vulnerability research.
+      </div>
+
+      <div class="building">
+        <span class="arrow">▸</span> building <strong>ozy pipeline</strong>
+        &mdash; on-premise security gate for git push
+      </div>
+
+      <div class="skills">
+        <span>ciberseguridad</span>
+        <span>bug bounty</span>
+        <span>devsecops</span>
+        <span>pentesting</span>
+        <span>backend</span>
+        <span>automation</span>
+        <span>ai / vibe coding</span>
+        <span>arch linux</span>
+        <span>go</span>
+        <span>python</span>
+        <span>bash</span>
+        <span>docker</span>
+        <span>linux</span>
+        <span>git</span>
+        <span>postgresql</span>
+        <span>neovim</span>
+      </div>
+
+      <div class="cta-row">
+        <a href="https://github.com/SamBleed/ozy-pipeline" class="primary">▸ ozy pipeline</a>
+        <a href="https://www.linkedin.com/in/samuel-sr/">▸ linkedin</a>
+        <a href="mailto:samuell.secure@gmail.com">▸ email</a>
+        <a href="https://gitlab.com/SamBleed">▸ gitlab</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="sec-header"><span class="prompt-color">$</span> <span class="cmd">ls</span> <span class="dim">~/projects/</span></div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="title"><a href="https://github.com/SamBleed/ozy-pipeline">ozy-pipeline</a></span>
+          <span class="sub"><span class="lang-go">go</span> &middot; core project</span>
+        </div>
+        <div class="card-desc">
+          on-premise security scanning platform. intercepts <strong>git push</strong>,
+          orchestrates <strong>7 scanners</strong> in isolated docker containers
+          (gitleaks, semgrep, trivy, checkov, trufflehog, syft, grype), deduplicates
+          with <strong>hybrid ai</strong> (sha-256 + ollama embeddings + pgvector),
+          evaluates gitops-defined policies, and blocks vulnerable code before it
+          reaches production. includes a dashboard, real-time notifications (slack,
+          discord, telegram), and full observability with signoz + prometheus.
+        </div>
+        <div class="card-tags">
+          <span class="highlight">go</span><span>chi v5</span><span>postgresql + pgvector</span>
+          <span>nats jetstream</span><span>ollama + granite-embedding</span>
+          <span>docker</span><span>minio</span><span>next.js 16</span>
+          <span>signoz</span><span>prometheus</span>
+        </div>
+        <div style="margin-top:0.6rem;font-size:0.72rem;color:var(--comment);border-top:1px solid var(--border);padding-top:0.5rem;">
+          <span style="color:var(--cyan);">▸</span> architecture: 6-phase pipeline (fetch → scope → scan → analyze → decide → report) with adapter pattern for local/remote modes
+          <br>
+          <span style="color:var(--cyan);">▸</span> decision: nats jetstream over redis — persistent message queue with built-in backpressure
+          <br>
+          <span style="color:var(--cyan);">▸</span> decision: ollama local over openai api — zero data leaves the network, no api key needed
+          <br>
+          <span style="color:var(--cyan);">▸</span> learned: docker sdk internals, git protocol (smart-http), pgvector indexing, nats streams
+          <br>
+          <span style="color:var(--cyan);">▸</span> fixed: 11 critical security issues — rls leaks, zombie containers, bcrypt dos, goroutine leaks
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="title"><a href="https://github.com/SamBleed/ozy">ozy</a></span>
+          <span class="sub"><span class="lang-go">go</span> &middot; active</span>
+        </div>
+        <div class="card-desc">
+          unified bug-bounty ecosystem. orchestrates <strong>10+ security
+          projects</strong> as mcp tools for ai agents. connects recon,
+          scanning, and reporting into a single agent-driven workflow for
+          scalable vulnerability discovery.
+        </div>
+        <div class="card-tags">
+          <span class="highlight">go</span><span>mcp</span><span>ai agents</span><span>python</span>
+        </div>
+        <div style="margin-top:0.6rem;font-size:0.72rem;color:var(--comment);border-top:1px solid var(--border);padding-top:0.5rem;">
+          <span style="color:var(--cyan);">▸</span> architecture: mcp server exposing each security tool as a tool resource
+          <br>
+          <span style="color:var(--cyan);">▸</span> decision: agent-driven over scripted — more flexible, composable workflows
+          <br>
+          <span style="color:var(--cyan);">▸</span> learned: mcp protocol design, tool composition patterns
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="title"><a href="https://github.com/SamBleed/terax-mobile">terax-mobile</a></span>
+          <span class="sub"><span class="lang-dart">dart</span> &middot; active</span>
+        </div>
+        <div class="card-desc">
+          mobile ide client. ssh into remote development workspaces via a
+          <strong>flutter</strong> app with <strong>rust</strong> ffi for
+          terminal emulation and file management on the go.
+        </div>
+        <div class="card-tags">
+          <span class="highlight">dart / flutter</span><span>rust</span><span>ssh</span><span>kotlin</span><span>swift</span>
+        </div>
+        <div style="margin-top:0.6rem;font-size:0.72rem;color:var(--comment);border-top:1px solid var(--border);padding-top:0.5rem;">
+          <span style="color:var(--cyan);">▸</span> architecture: flutter ui ↔ rust ffi bridge ↔ ssh session
+          <br>
+          <span style="color:var(--cyan);">▸</span> decision: rust for ffi over platform-native — shared logic across ios &amp; android
+          <br>
+          <span style="color:var(--cyan);">▸</span> learned: mobile ssh, ffi patterns, cross-platform terminal rendering
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="sec-header"><span class="prompt-color">$</span> <span class="cmd">gh</span> <span class="dim">activity --recent</span></div>
+      <div class="card">
+        <div class="card-header" style="margin-bottom:0.5rem;">
+          <span class="title">latest pushes</span>
+        </div>
+        <div class="card-desc" style="font-size:0.72rem;line-height:2;">
+          <span style="color:var(--comment);">jun 30</span> <span style="color:var(--green);">ozy-pipeline</span> &middot; v1.0.0 stable release<br>
+          <span style="color:var(--comment);">jun 30</span> <span style="color:var(--green);">ozy-pipeline</span> &middot; docs standardized to english<br>
+          <span style="color:var(--comment);">jun 29</span> <span style="color:var(--green);">ozy</span> &middot; refactor mcp tool definitions<br>
+          <span style="color:var(--comment);">jun 22</span> <span style="color:var(--green);">AI-CLI</span> &middot; openrouter provider support<br>
+          <span style="color:var(--comment);">jun 21</span> <span style="color:var(--green);">ozy-pipeline</span> &middot; rate limiter in-memory token bucket
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <span id="footer-clock">--:--</span>
+      <br>
+      ~ $ exit
+    </div>
+
+  </div>
+
+  <script>
+    function updateClock() {
+      const now = new Date();
+      document.getElementById('clock').textContent =
+        now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false });
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+  </script>
+</body>
+</html>
