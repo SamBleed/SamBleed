@@ -3,23 +3,12 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/SamBleed.png" width="120" height="120" style="border-radius: 50%;" alt="avatar" />
-</p>
-
-<h1 align="center">Samuel</h1>
-
-<p align="center">
-  Security Engineer · DevSecOps · Trujillo, Perú 🇵🇪
-</p>
-
-<p align="center">
-  <a href="https://github.com/SamBleed/ozy-pipeline"><b>Ozy Pipeline</b></a> ·
-  <a href="https://www.linkedin.com/in/samuel-sr/"><b>LinkedIn</b></a> ·
-  <a href="mailto:samuell.secure@gmail.com"><b>Email</b></a>
-</p>
-
-<br>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=go,python,bash,linux,docker,git,github,gitlab,postgres,prometheus,grafana,neovim&perline=12" />
+  <img src="https://img.shields.io/badge/Ciberseguridad-000?style=for-the-badge&logo=security&logoColor=00FF41" />
+  <img src="https://img.shields.io/badge/Bug_Bounty-000?style=for-the-badge&logo=bugcrowd&logoColor=white" />
+  <img src="https://img.shields.io/badge/DevSecOps-000?style=for-the-badge&logo=githubactions&logoColor=00FF41" />
+  <img src="https://img.shields.io/badge/Pentesting-000?style=for-the-badge&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Backend-000?style=for-the-badge&logo=go&logoColor=00FF41" />
+  <img src="https://img.shields.io/badge/Automation-000?style=for-the-badge&logo=ansible&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI_Coding-000?style=for-the-badge&logo=openai&logoColor=00FF41" />
+  <img src="https://img.shields.io/badge/Arch_Linux-000?style=for-the-badge&logo=archlinux&logoColor=00FF41" />
 </p>
