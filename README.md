@@ -143,7 +143,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/SamBleed/SamBleed/blob/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/SamBleed/SamBleed/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Snake animation" />
 </p>
 
 </details>
