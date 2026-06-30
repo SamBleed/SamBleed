@@ -2,49 +2,63 @@
   <img src="https://github.com/SamBleed/SamBleed/blob/main/assets/banner.png?raw=true" alt="banner" width="100%" />
 </p>
 
----
+<h1 align="center">Samuel</h1>
 
-**☠️ whoami**
+<p align="center">
+  <b>Security Engineer · DevSecOps · Perú 🇵🇪</b>
+</p>
 
-```
-$ id
-uid=1001(devsecops) gid=1001(devsecops) groups=1001(devsecops),998(docker)
+<p align="center">
+  <a href="https://github.com/SamBleed/ozy-pipeline">Ozy Pipeline</a> ·
+  <a href="https://www.linkedin.com/in/samuel-sr/">LinkedIn</a> ·
+  <a href="mailto:samuell.secure@gmail.com">Email</a> ·
+  <a href="https://gitlab.com/SamBleed">GitLab</a>
+</p>
 
-$ cat /etc/motd
-╔══════════════════════════════════════════════╗
-║  Samuel                                     ║
-║  Trujillo, Perú 🇵🇪                          ║
-║  Security Engineer · DevSecOps              ║
-║                                              ║
-║  Building tools that catch vulnerabilities   ║
-║  before they reach production.               ║
-║  On-premise. No SaaS. No compromises.        ║
-║                                              ║
-║  "Security isn't a feature —                 ║
-║   it's a workflow."                          ║
-╚══════════════════════════════════════════════╝
+<br>
 
-> Ozy Pipeline — security gate for git push
-```
+<p align="center">
+  <img src="https://boardingpass.jstnlt.my.id/api/card?username=SamBleed&theme=dark" width="90%" />
+</p>
 
 ---
 
-**🧰 tech stack**
+<h3 align="center">Tech Stack</h3>
 
-```
-LANG:     Go · Python · Bash
-SYS:      Arch Linux · Kali Linux · Neovim
-CONTAIN:  Docker · Podman · Compose
-CI/CD:    GitHub Actions · GitLab CI · NATS
-DB:       PostgreSQL · pgvector · MinIO
-OBS:      Prometheus · Grafana · SigNoz · OpenTelemetry
-SEC:      Gitleaks · Semgrep · Trivy · Checkov · TruffleHog · Grype
-NET:      Nmap · Wireshark · Metasploit
-```
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=go,python,bash,linux,docker,git,github,gitlab,postgres,nginx,prometheus,grafana,neovim&perline=13" />
+</p>
+
+<table>
+  <tr>
+    <th>Category</th>
+    <th>Tools</th>
+  </tr>
+  <tr>
+    <td><b>Security Scanning</b></td>
+    <td>Gitleaks · Semgrep · Trivy · Checkov · TruffleHog · Grype · Syft</td>
+  </tr>
+  <tr>
+    <td><b>Infrastructure</b></td>
+    <td>Docker · Podman · Compose · MinIO · NATS · PostgreSQL · pgvector</td>
+  </tr>
+  <tr>
+    <td><b>CI/CD</b></td>
+    <td>GitHub Actions · GitLab CI · automated pipelines</td>
+  </tr>
+  <tr>
+    <td><b>Observability</b></td>
+    <td>Prometheus · Grafana · SigNoz · OpenTelemetry</td>
+  </tr>
+  <tr>
+    <td><b>Audit & Network</b></td>
+    <td>Nmap · Metasploit · Wireshark · vulnerability analysis</td>
+  </tr>
+</table>
 
 ---
 
-**📊 stats**
+<h3 align="center">GitHub Analytics</h3>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SamBleed&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&count_private=true&include_all_commits=true" height="160" />
@@ -66,21 +80,6 @@ NET:      Nmap · Wireshark · Metasploit
 
 ---
 
-**📡 reachable**
-
-```
-$ echo $CONTACT
-LinkedIn:  /in/samuel-sr
-GitLab:    @SamBleed
-Email:     samuell.secure@gmail.com
-Project:   github.com/SamBleed/ozy-pipeline
-
-$ uptime
- 专注 · persistence · 忍耐
-```
-
-```
-$ exit
-logout
-Connection to github.com closed.
-```
+<p align="center">
+  <i>Building on-premise security tools that catch vulnerabilities before they ship.</i>
+</p>
