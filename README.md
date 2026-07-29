@@ -1,11 +1,9 @@
 <div align="center">
   <br />
 
-  ```text
-  SamBleed / Ozy-SR
-  Security Operations · Autonomous Systems
-  ```
+  <img src="assets/levi.gif" alt="Levi" width="100%" style="border-radius: 8px;" />
 
+  <br />
   <br />
 
   <a href="https://sambleed-portfolio.vercel.app">
@@ -14,9 +12,4 @@
 
   <br />
   <br />
-
-  <p>
-    <code>Researching LLM security, indirect prompt injections, and eBPF kernel observability.</code>
-  </p>
-
 </div>
