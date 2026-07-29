@@ -6,8 +6,8 @@
   <br />
   <br />
 
-  <a href="https://sambleed-portfolio.vercel.app">
-    <img src="https://img.shields.io/badge/PORTFOLIO_SYSTEM-sambleed--portfolio.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=09090b" alt="Portfolio System" />
+  <a href="https://rivai-portfolio.vercel.app">
+    <img src="https://img.shields.io/badge/PORTFOLIO_SYSTEM-rivai--portfolio.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=09090b" alt="Portfolio System" />
   </a>
 
   <br />
